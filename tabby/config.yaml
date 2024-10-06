@@ -1,0 +1,596 @@
+version: 7
+configSync:
+  parts:
+    hotkeys: false
+    appearance: false
+    vault: false
+hotkeys:
+  toggle-window:
+    - Ctrl-`
+  copy-current-path: []
+  ctrl-c:
+    - Ctrl-C
+  copy:
+    - Ctrl-Shift-C
+  paste:
+    - Ctrl-Shift-V
+    - Shift-Insert
+  select-all:
+    - Ctrl-Shift-A
+  clear: []
+  zoom-in:
+    - Ctrl-=
+    - Ctrl-Shift-=
+  zoom-out:
+    - Ctrl--
+    - Ctrl-Shift--
+  reset-zoom:
+    - Ctrl-0
+  home:
+    - Home
+  end:
+    - End
+  previous-word:
+    - Ctrl-Left
+  next-word:
+    - Ctrl-Right
+  delete-previous-word:
+    - Ctrl-Backspace
+  delete-line:
+    - Ctrl-Shift-Backspace
+  delete-next-word:
+    - Ctrl-Delete
+  search:
+    - Ctrl-Shift-F
+  pane-focus-all:
+    - Ctrl-Shift-I
+  focus-all-tabs:
+    - Ctrl-Alt-Shift-I
+  scroll-to-top:
+    - Ctrl-PageUp
+  scroll-up:
+    - Alt-PageUp
+  scroll-down:
+    - Alt-PageDown
+  scroll-to-bottom:
+    - Ctrl-PageDown
+  restart-telnet-session: []
+  restart-ssh-session: []
+  launch-winscp: []
+  settings-tab: {}
+  settings:
+    - Ctrl-,
+  serial:
+    - Alt-K
+  restart-serial-session: []
+  new-tab:
+    - Ctrl-Shift-T
+  new-window:
+    - Ctrl-Shift-N
+  profile: {}
+  profile-selectors: {}
+  toggle-fullscreen:
+    - F11
+    - Alt-Enter
+  close-tab:
+    - Ctrl-Shift-W
+  reopen-tab:
+    - Ctrl-Shift-Z
+  toggle-last-tab: []
+  rename-tab: []
+  next-tab:
+    - Ctrl-Shift-Right
+    - Ctrl-Tab
+  previous-tab:
+    - Ctrl-Shift-Left
+    - Ctrl-Shift-Tab
+  move-tab-left:
+    - Ctrl-Shift-PageUp
+  move-tab-right:
+    - Ctrl-Shift-PageDown
+  rearrange-panes:
+    - Ctrl-Shift
+  duplicate-tab: []
+  restart-tab: []
+  reconnect-tab: []
+  disconnect-tab: []
+  explode-tab:
+    - Ctrl-Shift-.
+  combine-tabs:
+    - Ctrl-Shift-,
+  tab-1:
+    - Alt-1
+  tab-2:
+    - Alt-2
+  tab-3:
+    - Alt-3
+  tab-4:
+    - Alt-4
+  tab-5:
+    - Alt-5
+  tab-6:
+    - Alt-6
+  tab-7:
+    - Alt-7
+  tab-8:
+    - Alt-8
+  tab-9:
+    - Alt-9
+  tab-10:
+    - Alt-0
+  tab-11: []
+  tab-12: []
+  tab-13: []
+  tab-14: []
+  tab-15: []
+  tab-16: []
+  tab-17: []
+  tab-18: []
+  tab-19: []
+  tab-20: []
+  split-right:
+    - Ctrl-Shift-S
+  split-bottom:
+    - Ctrl-Shift-D
+  split-left: []
+  split-top: []
+  pane-nav-right:
+    - Ctrl-Alt-Right
+  pane-nav-down:
+    - Ctrl-Alt-Down
+  pane-nav-up:
+    - Ctrl-Alt-Up
+  pane-nav-left:
+    - Ctrl-Alt-Left
+  pane-nav-previous:
+    - Ctrl-Alt-[
+  pane-nav-next:
+    - Ctrl-Alt-]
+  pane-nav-1: []
+  pane-nav-2: []
+  pane-nav-3: []
+  pane-nav-4: []
+  pane-nav-5: []
+  pane-nav-6: []
+  pane-nav-7: []
+  pane-nav-8: []
+  pane-nav-9: []
+  pane-maximize:
+    - Ctrl-Alt-Enter
+  close-pane: []
+  pane-increase-vertical: []
+  pane-decrease-vertical: []
+  pane-increase-horizontal: []
+  pane-decrease-horizontal: []
+  switch-profile:
+    - Ctrl-Alt-T
+  profile-selector:
+    - Ctrl-Shift-E
+  command-selector:
+    - Ctrl-Shift-P
+  quick-restart:
+    - Ctrl-Shift-R
+  search-in-browser: []
+terminal:
+  searchOptions: {}
+  colorScheme:
+    name: Tomorrow Night
+    foreground: '#c5c8c6'
+    background: '#1d1f21'
+    cursor: '#c5c8c6'
+    colors:
+      - '#000000'
+      - '#cc6666'
+      - '#b5bd68'
+      - '#f0c674'
+      - '#81a2be'
+      - '#b294bb'
+      - '#8abeb7'
+      - '#ffffff'
+      - '#000000'
+      - '#cc6666'
+      - '#b5bd68'
+      - '#f0c674'
+      - '#81a2be'
+      - '#b294bb'
+      - '#8abeb7'
+      - '#ffffff'
+  font: 终端更纱黑体-简 Nerd
+  cursor: beam
+  customColorSchemes: []
+  hideTabIndex: true
+  fontSize: 11
+  hideTabOptionsButton: true
+  focusFollowsMouse: true
+  showRecentProfiles: 0
+  identification: cygwin
+  profile: local:custom:Cmder:67a354b7-5512-45d6-892d-c13ccb795b6d
+ssh: {}
+clickableLinks: {}
+accessibility:
+  animations: false
+appearance:
+  opacity: 0.79
+  dock: bottom
+  dockScreen: 2528732444
+  tabsLocation: bottom
+  dockSpace: 0.51
+  dockFill: 0.2
+  vibrancy: true
+hacks:
+  enableFluentBackground: true
+  disableVibrancyWhileDragging: true
+providerBlacklist: []
+commandBlacklist: []
+enableWelcomeTab: false
+pluginBlacklist: []
+profileDefaults:
+  ssh:
+    disableDynamicTitle: true
+recoverTabs: false
+titleControl:
+  replacePattern: \cmd
+saveOutput: {}
+profiles:
+  - type: local
+    name: Cmder
+    icon: >-
+      <?xml version="1.0" encoding="UTF-8"?><svg width="64px" height="147px"
+      xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny"
+      viewBox="0 0 64 147"><g fill="#8bb91c"><rect x="31" width="2"
+      height="1"/><rect x="31" y="1" width="1" height="1"/><rect x="32" y="1"
+      width="1" height="2"/><rect x="31" y="2" width="1" height="1"/><rect
+      x="31" y="3" width="1" height="1"/><rect height="3" x="32" y="3"
+      width="1"/><rect x="31" y="4" width="1" height="76"/><rect x="32" y="6"
+      width="1" height="1"/><rect x="30" y="7" width="1" height="12"/><rect
+      height="3" x="32" y="7" width="1"/><rect x="32" y="10" width="1"
+      height="79"/><rect y="14" width="1" height="4" x="33"/><rect x="33" y="18"
+      width="1" height="1"/><rect x="30" y="19" width="1" height="9"/><rect
+      x="33" y="19" width="1" height="4"/><rect x="33" y="23" width="1"
+      height="1"/><rect x="33" y="24" width="1" height="4"/><rect x="30" y="28"
+      width="1" height="7"/><rect x="33" y="28" width="1" height="1"/><rect
+      x="33" y="29" width="1"  height="27"/><rect x="34" y="33" width="1"
+      height="1"/><rect height="5" x="34" y="34" width="1"/><rect x="30" y="35"
+      width="4" height="11"/><rect y="39" width="1" height="1" x="34"/><rect
+      width="1" height="3" x="34" y="40"/><rect y="41" width="1" height="1"
+      x="29"/><rect x="29" y="42" width="1" height="1"/><rect y="43" width="1"
+      height="1" x="27"/><rect height="1" x="28" y="43" width="1"/><rect x="29"
+      y="43" width="1" height="1"/><rect height="1" x="34" y="43"
+      width="1"/><rect x="35" y="43" width="1" height="1"/><rect x="24" y="44"
+      width="1" height="1"/><rect x="25" y="44" width="1" height="1"/><rect
+      x="26" y="44" width="1" height="1"/><rect x="27" y="44" width="10"
+      height="2"/><rect x="37" y="44" width="1" height="1"/><rect height="1"
+      x="38" y="44" width="1"/><rect x="39" y="44" width="1" height="1"/><rect
+      x="22" y="45" width="1" height="1"/><rect x="23" y="45" width="1"
+      height="1"/><rect x="24" y="45" width="15" height="1"/><rect x="39" y="45"
+      width="1" height="1"/><rect width="1" height="1" x="40" y="45"/><rect
+      x="41" y="45" width="1" height="1"/><rect x="20" y="46" width="1"
+      height="1"/><rect x="21" y="46" width="1" height="1"/><rect x="22" y="46"
+      width="6" height="1"/><rect x="28" y="46" width="2" height="1"/><rect
+      x="30" y="46" width="1" height="1"/><rect x="34" y="46" width="1"
+      height="1"/><rect width="1" height="1" x="35" y="46"/><rect width="1"
+      height="1" x="36" y="46"/><rect x="37" y="46" width="1" height="1"/><rect
+      x="38" y="46" width="4" height="1"/><rect height="1" x="42" y="46"
+      width="1"/><rect x="43" y="46" width="1" height="1"/><rect x="18" y="47"
+      width="1" height="1"/><rect x="19" y="47" width="1" height="1"/><rect
+      x="20" y="47" width="5" height="1"/><rect x="25" y="47" width="1"
+      height="1"/><rect x="26" y="47" width="1" height="1"/><rect width="1"
+      height="1" x="27" y="47"/><rect x="30" y="47" width="1" height="1"/><rect
+      x="34" y="47" width="1" height="1"/><rect x="38" y="47" width="1"
+      height="1"/><rect x="39" y="47" width="1" height="1"/><rect x="40" y="47"
+      width="4" height="1"/><rect x="44" y="47" width="1" height="1"/><rect
+      x="45" y="47" width="1" height="1"/><rect y="48" width="1" height="1"
+      x="17"/><rect x="18" y="48" width="1" height="1"/><rect x="19" y="48"
+      width="4" height="1"/><rect width="1" height="1" x="23" y="48"/><rect
+      x="24" y="48" width="1" height="1"/><rect x="30" y="48" width="1"
+      height="2"/><rect y="48" width="1" height="1" x="34"/><rect x="40" y="48"
+      width="1" height="1"/><rect x="41" y="48" width="1" height="1"/><rect
+      x="42" y="48" width="1" height="1"/><rect height="1" x="43" y="48"
+      width="2"/><rect x="45" y="48" width="1" height="1"/><rect x="46" y="48" 
+      width="1" height="1"/><rect height="1" x="16" y="49" width="1"/><rect
+      height="1" x="17" y="49" width="1"/><rect height="1" x="18" y="49"
+      width="4"/><rect height="1" x="22" y="49" width="1"/><rect height="1"
+      x="23" y="49" width="1"/><rect x="34" y="49" width="1" height="1"/><rect
+      x="42" y="49" width="1" height="1"/><rect x="43" y="49" width="1"
+      height="1"/><rect y="49" width="1" height="1" x="44"/><rect y="49"
+      width="2" height="1" x="45"/><rect width="1" height="1" x="47"
+      y="49"/><rect height="1" x="48" y="49" width="1"/><rect height="1" x="15"
+      y="50" width="1"/><rect x="16" y="50" width="4" height="1"/><rect
+      width="1" height="1" x="20" y="50"/><rect x="21" y="50" width="1"
+      height="1"/><rect x="30" y="50" width="1" height="1"/><rect x="44" y="50"
+      width="1" height="1"/><rect width="1" height="1" x="45" y="50"/><rect
+      x="46" y="50" width="2" height="1"/><rect x="48" y="50" width="1"
+      height="1"/><rect height="1" x="49" y="50" width="1"/><rect x="14" y="51"
+      width="1" height="1"/><rect x="15" y="51" width="4" height="1"/><rect
+      width="1" height="1" x="19" y="51"/><rect height="1" x="20" y="51"
+      width="1"/><rect y="51" width="1" height="1" x="30"/><rect height="1"
+      x="46" y="51" width="1"/><rect x="47" y="51" width="1" height="1"/><rect
+      height="1" x="48" y="51" width="1"/><rect x="49" y="51" width="1"
+      height="1"/><rect width="1" height="1" x="50" y="51"/><rect x="13" y="52"
+      width="1" height="1"/><rect height="1" x="14" y="52" width="1"/><rect
+      x="15" y="52" width="3" height="1"/><rect y="52" width="1" height="1"
+      x="18"/><rect height="12" x="30" y="52" width="1"/><rect x="47" y="52"
+      width="1" height="1"/><rect x="48" y="52" width="1" height="1"/><rect
+      x="49" y="52" width="1" height="2"/><rect width="1" height="1" x="50"
+      y="52"/><rect x="51" y="52" width="1" height="1"/><rect x="13" y="53"
+      width="1" height="1"/><rect x="14" y="53" width="3" height="1"/><rect
+      height="1" x="17" y="53" width="1"/><rect height="1" x="48" y="53"
+      width="1"/><rect x="50" y="53" width="1" height="2"/><rect width="1"
+      height="1" x="51" y="53"/><rect x="12" y="54" width="1" height="1"/><rect
+      x="13" y="54" width="3" height="1"/><rect height="1" x="16" y="54"
+      width="1"/><rect height="1" x="49" y="54" width="1"/><rect x="51" y="54"
+      width="1" height="2"/><rect x="52" y="54" width="1" height="1"/><rect
+      x="12" y="55" width="1" height="1"/><rect x="13" y="55" width="2"
+      height="1"/><rect x="15" y="55" width="1" height="1"/><rect x="50" y="55"
+      width="1" height="1"/><rect x="52" y="55" width="1" height="3"/><rect
+      x="53" y="55" width="1" height="1"/><rect x="12" y="56" width="1"
+      height="1"/><rect x="13" y="56" width="1" height="1"/><rect x="14"  y="56"
+      width="1" height="1"/><rect x="33" y="56" width="1" height="1"/><rect
+      x="50" y="56" width="1" height="1"/><rect x="51" y="56" width="1"
+      height="1"/><rect x="53" y="56" width="1" height="1"/><rect x="12" y="57"
+      width="1" height="1"/><rect x="13" y="57" width="1" height="1"/><rect
+      x="14" y="57" width="1" height="1"/><rect y="57" width="1" height="6"
+      x="33"/><rect x="51" y="57" width="1" height="1"/><rect x="53" y="57"
+      width="1" height="2"/><rect x="54" y="57" width="1" height="1"/><rect
+      height="1" x="12" y="58" width="1"/><rect height="1" x="13" y="58"
+      width="1"/><rect height="1" x="52" y="58" width="1"/><rect x="54" y="58"
+      width="1" height="1"/><rect y="59" width="1" height="1" x="53"/><rect
+      x="54" y="59" width="1" height="1"/><rect width="1" height="1" x="55"
+      y="59"/><rect x="54" y="60" width="1" height="1"/><rect x="55" y="60"
+      width="1" height="1"/><rect x="33" y="63" width="1" height="1"/><rect
+      height="1" x="30" y="64" width="1"/><rect x="33" y="64" width="1"
+      height="1"/><rect width="1" height="1" x="28" y="65"/><rect x="29" y="65"
+      width="1" height="1"/><rect width="1" height="1" x="30" y="65"/><rect
+      x="33" y="65" width="1" height="5"/><rect height="1" x="34" y="65"
+      width="1"/><rect x="35" y="65" width="1" height="1"/><rect x="36" y="65"
+      width="1" height="1"/><rect x="25" y="66" width="1" height="1"/><rect
+      y="66" width="1" height="1" x="26"/><rect x="27" y="66" width="1"
+      height="1"/><rect x="28" y="66" width="9" height="2"/><rect x="37" y="66"
+      width="1" height="1"/><rect width="1" height="1" x="38" y="66"/><rect
+      x="23" y="67" width="1" height="1"/><rect x="24" y="67" width="1"
+      height="1"/><rect x="25" y="67" width="14" height="1"/><rect height="1"
+      x="39" y="67" width="1"/><rect x="40" y="67" width="1" height="1"/><rect
+      x="41" y="67" width="1" height="1"/><rect x="22" y="68" width="1"
+      height="1"/><rect x="23" y="68" width="1" height="1"/><rect x="24" y="68"
+      width="3" height="1"/><rect x="27" y="68" width="1" height="1"/><rect
+      x="28" y="68" width="1" height="1"/><rect height="1" x="29" y="68"
+      width="1"/><rect y="68" width="1" height="1" x="30"/><rect height="1"
+      x="34" y="68" width="2"/><rect x="36" y="68" width="1" height="1"/><rect
+      x="37" y="68" width="4" height="1"/><rect x="41" y="68" width="1"
+      height="1"/><rect x="42" y="68" width="1" height="1"/><rect x="43" y="68"
+      width="1" height="1"/><rect x="20" y="69" width="1" height="1"/><rect
+      width="1" height="1" x="21" y="69"/><rect x="22" y="69" width="3"
+      height="1"/><rect y="69" width="1" height="1" x="25"/><rect height="1"
+      x="26" y="69" width="1"/><rect x="30" y="69" width="1" height="1"/><rect
+      x="37" y="69" width="1" height="1"/><rect  x="38" y="69" width="1"
+      height="1"/><rect width="4" height="1" x="39" y="69"/><rect x="43" y="69"
+      width="1" height="1"/><rect x="44" y="69" width="1" height="1"/><rect
+      y="70" width="1" height="1"/><rect y="70" width="1" height="1"
+      x="1"/><rect width="1" height="1" x="19" y="70"/><rect height="1" x="20"
+      y="70" width="1"/><rect x="21" y="70" width="1" height="1"/><rect x="22"
+      y="70" width="1" height="1"/><rect x="23" y="70" width="1"
+      height="1"/><rect height="1" x="24" y="70" width="1"/><rect height="1"
+      x="30" y="70" width="1"/><rect y="70" width="1" height="5" x="33"/><rect
+      x="39" y="70" width="1" height="1"/><rect width="1" height="1" x="40"
+      y="70"/><rect x="41" y="70" width="1" height="1"/><rect x="42" y="70"
+      width="2" height="1"/><rect width="1" height="1" x="44" y="70"/><rect
+      x="45" y="70" width="1" height="1"/><rect x="62" y="70" width="1"
+      height="1"/><rect x="63" y="70" width="1" height="1"/><rect width="1"
+      height="3" y="71"/><rect x="1" y="71" width="1" height="1"/><rect x="18"
+      y="71" width="1" height="1"/><rect x="19" y="71" width="2"
+      height="3"/><rect x="21" y="71" width="1" height="1"/><rect y="71"
+      width="1" height="1" x="22"/><rect width="1" height="1" x="30"
+      y="71"/><rect width="1" height="1" x="42" y="71"/><rect x="43" y="71"
+      width="2" height="2"/><rect y="71" width="1" height="1" x="45"/><rect
+      width="1" height="1" x="62" y="71"/><rect x="63" y="71" width="1"
+      height="1"/><rect x="1" y="72" width="1" height="3"/><rect y="72"
+      width="1" height="1" x="2"/><rect x="18" y="72" width="1"
+      height="1"/><rect y="72" width="1" height="1" x="21"/><rect x="30" y="72"
+      width="1" height="1"/><rect height="1" x="42" y="72" width="1"/><rect
+      x="45" y="72" width="1" height="1"/><rect height="1" x="61" y="72"
+      width="1"/><rect height="1" x="62" y="72" width="1"/><rect x="63" y="72"
+      width="1" height="1"/><rect x="2" y="73" width="1" height="1"/><rect
+      x="18" y="73" width="1" height="1"/><rect y="73" width="1" height="1"
+      x="21"/><rect x="22" y="73" width="1" height="1"/><rect x="30" y="73"
+      width="1" height="1"/><rect width="1" height="1" x="41" y="73"/><rect
+      y="73" width="2" height="1" x="42"/><rect y="73" width="1" height="1"
+      x="44"/><rect height="1" x="45" y="73" width="1"/><rect height="1" x="61"
+      y="73" width="1"/><rect width="1" height="2" x="62" y="73"/><rect
+      width="1" height="1" x="63" y="73"/><rect y="74" width="1"
+      height="1"/><rect height="1" x="2" y="74" width="1"/><rect y="74"
+      width="1" height="1" x="19"/><rect x="20" y="74" width="1"
+      height="1"/><rect height="1" x="21" y="74" width="2"/><rect x="23" y="74"
+      width="1" height="1"/><rect y="74" width="1" height="1" x="24"/><rect
+      x="30" y="74" width="1" height="1"/><rect x="39" y="74" width="1"
+      height="1"/><rect x="40" y="74" width="1" height="1"/><rect y="74"
+      width="2" height="1" x="41"/><rect width="1" height="1" x="43"
+      y="74"/><rect x="44" y="74" width="1" height="1"/><rect height="1" x="61"
+      y="74" width="1"/><rect x="1" y="75" width="1" height="1"/><rect x="2"
+      y="75" width="1" height="4"/><rect height="1" x="3" y="75"
+      width="1"/><rect y="75" width="1" height="1" x="20"/><rect height="1"
+      x="21" y="75" width="1"/><rect x="22" y="75" width="3" height="1"/><rect
+      x="25" y="75" width="1" height="1"/><rect x="26" y="75" width="1"
+      height="1"/><rect y="75" width="3" height="4" x="30"/><rect x="33" y="75"
+      width="1" height="1"/><rect height="1" x="37" y="75" width="1"/><rect
+      x="38" y="75" width="1" height="1"/><rect x="39" y="75" width="3"
+      height="1"/><rect y="75" width="1" height="1" x="42"/><rect x="43" y="75"
+      width="1" height="1"/><rect x="60" y="75" width="1" height="1"/><rect
+      x="61" y="75" width="1" height="4"/><rect x="62" y="75" width="1"
+      height="1"/><rect x="1" y="76" width="1" height="1"/><rect x="3" y="76"
+      width="1" height="1"/><rect x="22" y="76" width="1" height="1"/><rect
+      x="23" y="76" width="1" height="1"/><rect x="24" y="76" width="3"
+      height="1"/><rect x="27" y="76" width="1" height="1"/><rect x="28" y="76"
+      width="1" height="1"/><rect x="29" y="76" width="1" height="1"/><rect
+      height="3" x="33" y="76" width="1"/><rect x="34" y="76" width="1"
+      height="1"/><rect x="35" y="76" width="1" height="1"/><rect x="36" y="76"
+      width="1" height="1"/><rect x="37" y="76" width="3" height="1"/><rect
+      y="76" width="1" height="1" x="40"/><rect x="41" y="76" width="1"
+      height="1"/><rect x="60" y="76" width="1" height="1"/><rect x="62" y="76"
+      width="1" height="1"/><rect x="1" y="77" width="1" height="1"/><rect x="3"
+      y="77" width="1" height="5"/><rect y="77" width="1" height="1"
+      x="4"/><rect height="1" x="24" y="77" width="1"/><rect x="25" y="77"
+      width="1" height="1"/><rect height="1" x="26" y="77" width="12"/><rect
+      x="38" y="77" width="1" height="1"/><rect width="1" height="1" x="39"
+      y="77"/><rect x="59" y="77" width="1" height="1"/><rect height="2" x="60"
+      y="77" width="2"/><rect height="1" x="62" y="77" width="1"/><rect
+      height="1" x="1" y="78" width="1"/><rect x="4" y="78" width="1"
+      height="1"/><rect x="26" y="78" width="1" height="1"/><rect x="27" y="78"
+      width="1" height="1"/><rect y="78" width="1" height="1" x="28"/><rect
+      width="6" height="1" x="29" y="78"/><rect y="78" width="1" height="1"
+      x="35"/><rect width="1" height="1" x="36" y="78"/><rect x="37" y="78"
+      width="1" height="1"/><rect x="59" y="78" width="1" height="1"/><rect
+      x="62" y="78" width="1"  height="1"/><rect x="2" y="79" width="1"
+      height="1"/><rect x="4" y="79" width="1" height="5"/><rect height="1"
+      x="5" y="79" width="1"/><rect x="29" y="79" width="1" height="1"/><rect
+      x="30" y="79" width="1" height="1"/><rect y="79" width="1" height="1"
+      x="33"/><rect height="1" x="34" y="79" width="1"/><rect x="59" y="79"
+      width="1" height="1"/><rect x="60" y="79" width="1" height="3"/><rect
+      x="61" y="79" width="1" height="1"/><rect x="2" y="80" width="1"
+      height="1"/><rect x="5" y="80" width="1" height="1"/><rect x="31" y="80"
+      width="1" height="1"/><rect x="33" y="80" width="1" height="1"/><rect
+      height="1" x="58" y="80" width="1"/><rect height="2" x="59" y="80"
+      width="2"/><rect height="1" x="61" y="80" width="1"/><rect x="2" y="81"
+      width="1" height="1"/><rect x="5" y="81" width="1" height="5"/><rect x="6"
+      y="81" width="1" height="1"/><rect x="31" y="81" width="1"
+      height="2"/><rect x="33" y="81" width="1" height="1"/><rect width="1"
+      height="1" x="58" y="81"/><rect x="61" y="81"  width="1" height="1"/><rect
+      y="82" width="1" height="1" x="3"/><rect x="6" y="82" width="1"
+      height="1"/><rect x="7" y="82" width="1" height="1"/><rect x="57" y="82"
+      width="1" height="1"/><rect x="58" y="82" width="2" height="2"/><rect
+      y="82" width="1" height="1" x="60"/><rect x="3" y="83" width="1"
+      height="1"/><rect x="6" y="83" width="1" height="5"/><rect x="7" y="83"
+      width="1" height="1"/><rect height="2" x="31" y="83" width="1"/><rect
+      x="57" y="83" width="1" height="1"/><rect x="60" y="83" width="1"
+      height="1"/><rect x="4" y="84" width="1" height="1"/><rect x="7" y="84"
+      width="1" height="5"/><rect y="84" width="1" height="1" x="8"/><rect
+      x="56" y="84" width="1" height="1"/><rect x="57" y="84" width="2"
+      height="2"/><rect x="59" y="84" width="1" height="1"/><rect y="85"
+      width="1" height="1" x="4"/><rect x="8" y="85" width="1" height="1"/><rect
+      x="9" y="85" width="1" height="1"/><rect x="31" y="85" width="1"
+      height="1"/><rect width="1" height="1" x="55" y="85"/><rect x="56" y="85"
+      width="1" height="1"/><rect y="85" width="1" height="1" x="59"/><rect
+      height="1" x="5" y="86" width="1"/><rect x="8" y="86" width="1"
+      height="5"/><rect x="9" y="86" width="1" height="1"/><rect x="10" y="86"
+      width="1" height="1"/><rect width="1" height="1" x="31" y="86"/><rect
+      height="1" x="55" y="86" width="1"/><rect x="56" y="86" width="2"
+      height="2"/><rect width="1" height="1" x="58" y="86"/><rect x="59" y="86"
+      width="1" height="1"/><rect x="5" y="87" width="1" height="1"/><rect
+      y="87" width="1" height="5" x="9"/><rect x="10" y="87" width="1"
+      height="1"/><rect x="31" y="87" width="1" height="1"/><rect x="54" y="87"
+      width="1" height="1"/><rect x="55" y="87" width="3" height="1"/><rect
+      x="58" y="87" width="1" height="1"/><rect x="6" y="88" width="1"
+      height="1"/><rect x="10" y="88" width="1" height="5"/><rect height="1"
+      x="11" y="88" width="1"/><rect height="1" x="53" y="88" width="1"/><rect
+      height="1" x="54" y="88" width="1"/><rect x="55" y="88" width="2"
+      height="2"/><rect height="1" x="57" y="88" width="1"/><rect x="6" y="89"
+      width="1" height="1"/><rect x="7" y="89" width="1" height="1"/><rect
+      x="11" y="89" width="1" height="5"/><rect width="1" height="1" x="12"
+      y="89"/><rect x="32" y="89" width="1" height="1"/><rect height="1" x="53"
+      y="89" width="1"/><rect x="54" y="89" width="3" height="1"/><rect x="57"
+      y="89" width="1" height="1"/><rect x="7" y="90" width="1"
+      height="1"/><rect x="12" y="90" width="1" height="4"/><rect x="13" y="90"
+      width="1" height="1"/><rect y="90" width="1" height="1" x="32"/><rect
+      x="52" y="90" width="1" height="1"/><rect x="53" y="90" width="3"
+      height="1"/><rect y="90" width="1" height="1" x="56"/><rect x="8" y="91"
+      width="1" height="1"/><rect x="13" y="91" width="1" height="4"/><rect
+      y="91" width="1" height="1" x="14"/><rect x="51" y="91" width="1"
+      height="1"/><rect width="3" height="1" x="52" y="91"/><rect y="91"
+      width="1" height="1" x="55"/><rect x="9" y="92" width="1"
+      height="1"/><rect width="1" height="4" x="14" y="92"/><rect width="1"
+      height="1" x="15" y="92"/><rect y="92" width="1" height="1" x="50"/><rect
+      height="1" x="51" y="92" width="3"/><rect x="54" y="92" width="1"
+      height="1"/><rect x="55" y="92" width="1" height="1"/><rect x="10" y="93"
+      width="1" height="1"/><rect x="15" y="93" width="1" height="4"/><rect
+      x="16" y="93" width="1" height="1"/><rect y="93" width="1" height="1"
+      x="49"/><rect height="2" x="50" y="93" width="3"/><rect height="1" x="53"
+      y="93" width="1"/><rect height="1" x="54" y="93" width="1"/><rect x="11"
+      y="94" width="1" height="1"/><rect x="12" y="94" width="1"
+      height="1"/><rect height="3" x="16" y="94" width="1"/><rect y="94"
+      width="1" height="1" x="17"/><rect x="47" y="94" width="1"
+      height="1"/><rect x="48" y="94" width="1" height="1"/><rect height="1"
+      x="49" y="94" width="4"/><rect x="53" y="94" width="1" height="1"/><rect
+      y="95" width="1" height="1" x="12"/><rect x="13" y="95" width="1"
+      height="1"/><rect x="17" y="95" width="1" height="3"/><rect x="18"  y="95"
+      width="1" height="1"/><rect x="19" y="95" width="1" height="1"/><rect
+      x="46" y="95" width="1" height="1"/><rect x="47" y="95" width="1"
+      height="1"/><rect x="48" y="95" width="4" height="1"/><rect width="1"
+      height="1" x="52" y="95"/><rect y="96" width="1" height="1" x="13"/><rect
+      x="14" y="96" width="1" height="1"/><rect x="18" y="96" width="1"
+      height="3"/><rect x="19" y="96" width="1" height="1"/><rect x="20" y="96"
+      width="1" height="1"/><rect x="44" y="96" width="1" height="1"/><rect
+      height="1" x="45" y="96" width="1"/><rect y="96" width="4" height="1"
+      x="46"/><rect width="1" height="1" x="50" y="96"/><rect x="51" y="96"
+      width="1" height="1"/><rect x="15" y="97" width="1" height="1"/><rect
+      x="16" y="97" width="1" height="1"/><rect width="1" height="2" x="19"
+      y="97"/><rect x="20" y="97" width="1" height="1"/><rect x="21" y="97"
+      width="1" height="1"/><rect x="42" y="97" width="1" height="1"/><rect
+      y="97" width="1" height="1" x="43"/><rect x="44" y="97" width="1"
+      height="1"/><rect x="45" y="97" width="4" height="1"/><rect x="49" y="97"
+      width="1" height="1"/><rect width="1" height="1" x="50" y="97"/><rect
+      x="16" y="98" width="1" height="1"/><rect x="17" y="98" width="1"
+      height="1"/><rect x="20" y="98" width="2" height="2"/><rect x="22" y="98"
+      width="1" height="1"/><rect x="23" y="98" width="1" height="1"/><rect
+      x="31" y="98" width="1" height="1"/><rect width="3" height="1" x="32"
+      y="98"/><rect width="1" height="1" x="35" y="98"/><rect x="38" y="98"
+      width="1" height="1"/><rect height="1" x="39" y="98" width="1"/><rect
+      x="40" y="98" width="1" height="1"/><rect y="98" width="1" height="1"
+      x="41"/><rect y="98" width="6" height="1" x="42"/><rect x="48" y="98"
+      width="1" height="1"/><rect y="98" width="1" height="1" x="49"/><rect
+      x="18" y="99" width="1" height="1"/><rect x="19" y="99" width="1"
+      height="1"/><rect width="2" height="2" x="22" y="99"/><rect height="1"
+      x="24" y="99" width="1"/><rect x="25" y="99" width="1" height="1"/><rect
+      width="1" height="1" x="30" y="99"/><rect x="31" y="99" width="15"
+      height="1"/><rect x="46" y="99" width="1" height="1"/><rect x="47" y="99"
+      width="1" height="1"/><rect x="20" y="100" width="1" height="1"/><rect
+      x="21" y="100" width="1" height="1"/><rect x="24" y="100" width="2"
+      height="2"/><rect x="26" y="100" width="1" height="1"/><rect height="1"
+      x="27" y="100" width="1"/><rect x="28" y="100" width="1" height="1"/><rect
+      y="100" width="1" height="1" x="29"/><rect x="30" y="100" width="14"
+      height="1"/><rect x="44" y="100" width="1" height="1"/><rect x="45"
+      y="100" width="1" height="1"/><rect width="1" height="1" x="46"
+      y="100"/><rect x="22" y="101" width="1" height="1"/><rect y="101"
+      width="1" height="1" x="23"/><rect x="26" y="101" width="16"
+      height="1"/><rect x="42" y="101" width="1" height="1"/><rect x="43"
+      y="101" width="1" height="1"/><rect x="44" y="101" width="1"
+      height="1"/><rect y="102" width="1" height="1" x="24"/><rect height="1"
+      x="25" y="102" width="1"/><rect height="1" x="26" y="102" width="1"/><rect
+      x="27" y="102" width="12" height="1"/><rect x="39" y="102" width="1"
+      height="1"/><rect x="40" y="102" width="1" height="1"/><rect x="41"
+      y="102" width="1" height="1"/><rect x="27" y="103" width="1"
+      height="1"/><rect x="28" y="103" width="1" height="1"/><rect y="103"
+      width="1" height="1" x="29"/><rect  x="30" y="103" width="5"
+      height="1"/><rect width="1" height="1" x="35" y="103"/><rect x="36"
+      y="103" width="1" height="1"/><rect x="37" y="103" width="1"
+      height="1"/><rect x="38" y="103" width="1" height="1"/><rect height="6"
+      x="30" y="104" width="4"/><rect height="1" x="34" y="104" width="1"/><rect
+      height="1" x="35" y="104" width="1"/><rect y="105" width="1" height="1"
+      x="34"/><rect y="106" width="1" height="1" x="34"/><rect x="34" y="107"
+      width="1" height="1"/><rect x="30" y="110" width="3" height="10"/><rect
+      x="33" y="110" width="1" height="1"/><rect x="33" y="111" width="1"
+      height="7"/><rect x="33" y="118" width="1" height="1"/><rect y="119"
+      width="1" height="10" x="33"/><rect width="1" height="8" x="30"
+      y="120"/><rect x="31" y="120" width="2" height="17"/><rect width="1"
+      height="1" x="30" y="128"/><rect width="1" height="4" x="30"
+      y="129"/><rect width="1" height="5" x="33" y="129"/><rect x="30" y="133"
+      width="1" height="1"/><rect x="30" y="134" width="1" height="2"/><rect
+      y="134" width="1" height="1" x="33"/><rect x="30" y="136" width="1"
+      height="1"/><rect x="31" y="137" width="1" height="1"/><rect x="32"
+      y="137" width="1" height="1"/><rect width="1" height="1" x="31"
+      y="138"/><rect height="1" x="32" y="138" width="1"/><rect height="1"
+      x="31" y="139" width="1"/><rect width="1" height="1" x="32" y="139"/><rect
+      x="31" y="140" width="1" height="1"/><rect x="32" y="140" width="1"
+      height="1"/></g></svg>
+    options:
+      command: cmd.exe
+      args:
+        - /k
+        - C:\Users\User\Opt\cmder_mini\vendor\init.bat
+      env: {}
+      cwd: null
+    id: local:custom:Cmder:67a354b7-5512-45d6-892d-c13ccb795b6d
+    group: 8213c01d-fa15-4acf-8990-0d78cadcb3a9
+groups:
+  - id: 8213c01d-fa15-4acf-8990-0d78cadcb3a9
+    name: group
+profileBlacklist: []
+searchInBrowserPlugin: {}

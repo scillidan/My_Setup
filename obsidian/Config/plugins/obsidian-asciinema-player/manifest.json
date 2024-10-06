@@ -1,0 +1,11 @@
+{
+	"id": "my-asciinema-plugin",
+	"name": "Asciinema Plugin",
+	"version": "0.5.0",
+	"minAppVersion": "0.15.0",
+	"description": "Asciinema file player.",
+	"author": "Justme",
+	"authorUrl": "https://obsidian.md",
+	"fundingUrl": "https://obsidian.md/pricing",
+	"isDesktopOnly": false
+}

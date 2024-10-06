@@ -1,0 +1,6 @@
+{
+  "show-future": true,
+  "show-past": true,
+  "minimum-interval": "hours",
+  "disabled": true
+}

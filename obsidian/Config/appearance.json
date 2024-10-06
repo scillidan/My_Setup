@@ -1,0 +1,16 @@
+{
+  "baseFontSize": 13,
+  "translucency": true,
+  "cssTheme": "Things",
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "theme",
+    "themes"
+  ],
+  "theme": "obsidian",
+  "interfaceFontFamily": "Sarasa Nerd",
+  "accentColor": "",
+  "textFontFamily": "Sarasa Nerd",
+  "monospaceFontFamily": "Sarasa Nerd",
+  "nativeMenus": false
+}

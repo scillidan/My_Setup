@@ -1,0 +1,10 @@
+/* For styling the rendered Markdown */
+li.todo span.todo-panel {
+  margin: 0;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.2s ease-out;
+}
+li.todo:hover span.todo-panel {
+  height: 14px;
+}

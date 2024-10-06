@@ -1,0 +1,25 @@
+{
+  "generalSettingsHeading": null,
+  "serverUrl": "http://142.251.42.234/3333",
+  "serverToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkY2U5NTEzMi03YzI0LTRiN2UtOWU3Yy04ZWMwOTJiMmVlZTMiLCJ1c2VybmFtZSI6InJvb3QiLCJpYXQiOjE2OTg4MDg3OTh9.uR3V3DgjIXHoQaZTtI0WT21mz5Eq_hDK33tSckA4dsA",
+  "libraryNameList": "book",
+  "importProgressFilters": [
+    "finished",
+    "in-progress"
+  ],
+  "singlePageSettingsHeading": null,
+  "singlePageModeEnabled": true,
+  "pageName": "Audiobookshelf Import",
+  "singlePageItemTemplate": "### books/{{{title}}}\ncollapsed:: false\nsubtitle:: {{subtitle}}\nprogress:: {{{progress}}}\nisFinished:: {{{isFinished}}}\nduration:: {{{duration}}}\ncurrentTime:: {{{currentTime}}}\n{{!_______________________________}}\n{{#authors.length}}\nauthors:: {{#authors}}[[{{{name}}}]]{{/authors}}\n{{/authors.length}}\n{{!_______________________________}}\n{{#narrators.length}}\nnarrators:: {{#narrators}}[[{{{.}}}]]{{/narrators}}\n{{/narrators.length}}\n{{!_______________________________}}\n{{#genres.length}}\ngenres:: {{#genres}}[[{{{.}}}]]{{/genres}}\n{{/genres.length}}\n{{!_______________________________}}\nsource:: [Open in Audiobookshelf]({{{audiobookshelfUrl}}})\nasin:: {{{asin}}}\nisbn:: {{{isbn}}}\n{{!_______________________________}}\n{{#tags.length}}\ntags:: {{#tags}}[[{{{.}}}]] {{/tags}}\n{{/tags.length}}\n{{!_______________________________}}\n{{#startedDate}}\nstartedDate:: [[{{{startedDateParsed}}}]]\n{{/startedDate}}\n{{!_______________________________}}\n{{#finishedDate}}\nfinishedDate:: [[{{{finishedDateParsed}}}]]\n{{/finishedDate}}",
+  "multiPageSettingsHeading": null,
+  "createPages": false,
+  "updatePages": false,
+  "pageTitlePrefix": "{{{mediaType}}}/",
+  "pageTitlePostfix": "",
+  "multiPageItemTemplate": "### books/{{{title}}}\ncollapsed:: false\nsubtitle:: {{subtitle}}\nprogress:: {{{progress}}}\nisFinished:: {{{isFinished}}}\nduration:: {{{duration}}}\ncurrentTime:: {{{currentTime}}}\n{{!===== Authors =====}}\n{{#authors.length}}\nauthors:: {{#authors}}[[{{{name}}}]]{{/authors}}\n{{/authors.length}}\n{{!===== Narrators =====}}\n{{#narrators.length}}\nnarrators:: {{#narrators}}[[{{{.}}}]]{{/narrators}}\n{{/narrators.length}}\n{{!===== Genres =====}}\n{{#genres.length}}\ngenres:: {{#genres}}[[{{{.}}}]]{{/genres}}\n{{/genres.length}}\n{{!===== Series =====}}\n{{#series}}\nseries:: {{#series}}[[{{{name}}}]]{{/series}}\n{{/series}}\nsource:: [Open in Audiobookshelf]({{{audiobookshelfUrl}}})\nasin:: {{{asin}}}\nisbn:: {{{isbn}}}\n{{!===== Tags =====}}\n{{#tags.length}}\ntags:: {{#tags}}[[{{{.}}}]] {{/tags}}\n{{/tags.length}}\n{{!===== Started Date =====}}\n{{#startedDate}}\nstartedDate:: [[{{{startedDateParsed}}}]]\n{{/startedDate}}\n{{!===== Finished Date =====}}\n{{#finishedDate}}\nfinishedDate:: [[{{{finishedDateParsed}}}]]\n{{/finishedDate}}\n\n{{{description}}}",
+  "podcastSettingsHeading": null,
+  "singlePagePodcastItemTemplate": "### podcasts/{{{title}}}/{{{episodeTitle}}}\ncollapsed:: false\nsubtitle:: {{subtitle}}\nprogress:: {{{progress}}}\nisFinished:: {{{isFinished}}}\nduration:: {{{duration}}}\ncurrentTime:: {{{currentTime}}}\nauthor:: [[{{{author}}}]]\n{{!===== Genres =====}}\n{{#genres.length}}\ngenres:: {{#genres}}[[{{{.}}}]]{{/genres}}\n{{/genres.length}}\nsource:: [Open in Audiobookshelf]({{{audiobookshelfUrl}}})\n{{!===== Tags =====}}\n{{#tags.length}}\ntags:: {{#tags}}[[{{{.}}}]] {{/tags}}\n{{/tags.length}}\n{{!===== Started Date =====}}\n{{#startedDate}}\nstartedDate:: [[{{{startedDateParsed}}}]]\n{{/startedDate}}\n{{!===== Finished Date =====}}\n{{#finishedDate}}\nfinishedDate:: [[{{{finishedDateParsed}}}]]\n{{/finishedDate}}\n\n{{{description}}}",
+  "advancedSettingsHeading": null,
+  "debug": [],
+  "disabled": true
+}

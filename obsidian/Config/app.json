@@ -1,0 +1,27 @@
+{
+  "obsidianCss": true,
+  "defaultViewMode": "source",
+  "tabSize": 2,
+  "attachmentFolderPath": "./attach",
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "1",
+    "downscalePercent": 100
+  },
+  "useMarkdownLinks": true,
+  "userIgnoreFilters": [
+    "stylesheets/",
+    "assets/",
+    "overrides/",
+    "javascripts/",
+    "./",
+    ".*"
+  ],
+  "showFrontmatter": false,
+  "smartIndentList": false,
+  "useTab": false,
+  "livePreview": true,
+  "alwaysUpdateLinks": true
+}

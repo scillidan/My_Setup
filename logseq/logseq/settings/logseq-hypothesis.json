@@ -1,0 +1,10 @@
+{
+  "apiToken": "6879-SM6jc6BmTWHPabT_OuhmCPOU04F9fxxgLkvCKIFFtWs",
+  "user": "scillidan",
+  "highlightFormat": "📌 {text} {tags}",
+  "annotationFormat": "📝 {text}",
+  "noteFormat": "📝 {text} {tags}",
+  "deletedFormat": "🗑️",
+  "disabled": true,
+  "annotations": null
+}

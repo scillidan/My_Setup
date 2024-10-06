@@ -1,0 +1,8 @@
+{
+  "headingREADME": "",
+  "modelSize": "large-v2",
+  "minLength": 100,
+  "whisperLocalEndpoint": "http://127.0.0.1:5014",
+  "zhType": "zh-cn",
+  "disabled": true
+}

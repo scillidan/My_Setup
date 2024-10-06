@@ -1,0 +1,12 @@
+{
+  "hide_options": null,
+  "toggle_hide_show": "Hide",
+  "hide_tag": "_hidden",
+  "hidden_style": "background-color: black; \ncolor: black",
+  "encrypt_options": null,
+  "toggle_encrypt_decrypt": "Encrypt",
+  "encrypt_tag": "_encrypted",
+  "unlock_password": "",
+  "secret_passphrase": "",
+  "disabled": true
+}

@@ -1,0 +1,11 @@
+{
+  "headingClearBlocks": "",
+  "loadClearBlocks": true,
+  "headingBlankLine": "",
+  "blankOneLine": "1",
+  "previousLineBlank": "3",
+  "nextLineBlank": "3",
+  "nextLineBlankFromPageMenu": "10",
+  "bulletContextMenuItem": false,
+  "disabled": false
+}

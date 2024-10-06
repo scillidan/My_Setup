@@ -1,0 +1,15 @@
+@import url("https://cdn.jsdelivr.net/gh/scillidan/fonts@master/serve/sarasa-mono-sc.css");
+
+:root {
+  --ls-font-family: "Sarasa Mono SC";
+}
+
+* {
+  font-family: "Sarasa Mono SC", monospace;
+  font-variant-ligatures: none !important;
+}
+
+body {
+  text-align: start;
+  background-color: #fffff8;
+}

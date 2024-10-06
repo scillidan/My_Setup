@@ -1,0 +1,5 @@
+{
+  "link.text.movie": "🎬 ${title}",
+  "link.text.anime": "🎬 ${title}",
+  "disabled": true
+}
