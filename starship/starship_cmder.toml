@@ -1,0 +1,65 @@
+format = "$all$directory$character"
+
+[character]
+success_symbol = "[λ](white)"
+error_symbol = "[λ](red)"
+vicmd_symbol = "[λ](cyan)"
+
+[directory]
+style = "green"
+read_only = " ro"
+
+[memory_usage]
+symbol = "memory "
+
+[package]
+symbol = "pkg "
+
+[git_commit]
+tag_symbol = " tag "
+
+[git_status]
+ahead = ">"
+behind = "<"
+diverged = "<>"
+renamed = "r"
+deleted = "x"
+
+[git_branch]
+symbol = "git "
+
+[conda]
+symbol = "conda "
+
+[cmake]
+symbol = "cmake "
+
+[dotnet]
+symbol = ".NET "
+
+[docker_context]
+symbol = "docker "
+
+[golang]
+symbol = "go "
+
+[java]
+symbol = "java "
+
+[lua]
+symbol = "lua "
+
+[nodejs]
+symbol = "nodejs "
+
+[perl]
+symbol = "pl "
+
+[python]
+symbol = "py "
+
+[ruby]
+symbol = "rb "
+
+[rust]
+symbol = "rs "

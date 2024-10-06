@@ -1,0 +1,17 @@
+matches:
+  - trigger: ":what"
+    replace: "What is $|$? Using metaphors and rhetoric helps me understand."
+  - trigger: ":gc"
+    replace: "git clone -depth=1 "
+    passive_only: true
+  - trigger: ":pv"
+    replace: "python.exe -m venv venv\nvenv\\Scripts\\activate.bat"
+  - regex: ":hi\\((?P<person>.*)\\)"
+    replace: "Hi {{person}}!"
+  # - regex: "=sum\\((?P<num1>.*?),(?P<num2>.*?)\\)"
+  #   replace: "{{result}}"
+  #   vars:
+  #     - name: result
+  #       type: shell
+  #       params:
+  #         cmd: "expr $ESPANSO_NUM1 + $ESPANSO_NUM2"

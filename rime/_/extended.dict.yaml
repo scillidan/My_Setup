@@ -1,0 +1,8 @@
+ # Rime extended dictionary
+ # encoding: utf-8
+ ---
+ name: extended
+ version: "2023-11-18"
+
+ import_tables:
+# - dicts/sougou_standard

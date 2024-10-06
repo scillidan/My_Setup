@@ -1,0 +1,36 @@
+[Ditto]
+DBPath3=C:\Users\User\Opt\Ditto\Ditto.db
+CheckForMaxEntries=1
+CheckForExpiredEntries=0
+MaxEntries=20000
+ExpiredEntries=5
+CopyAppInclude=*
+CopyAppExclude=
+LanguageFile=Chinese Simplified
+ShowQuickPastePosition=1
+Theme2=DarkerDitto
+PastSearchXml=<PastSearches />
+SendPasteOnFirstTenHotKeys=1
+MoveClipsOnGlobal10=1
+UseUISelectedGroupForLastTenCopies=1
+DittoHotKey=1092
+LogSendReceiveErrors=0
+DisableRecieve=1
+RequestFilesUsingIP=0
+ShowStartupMessage=0
+LinesPerRow=1
+[DisplayFont6]
+Height=-13
+Width=0
+Escapement=0
+Orientation=0
+Weight=400
+Italic=0
+Underline=0
+StrikeOut=0
+CharSet=0
+OutPrecision=3
+ClipPrecision=2
+Quality=1
+PitchAndFamily=49
+FaceName=Sarasa Term SC Nerd

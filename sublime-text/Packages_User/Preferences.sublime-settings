@@ -1,0 +1,37 @@
+{
+    "word_wrap": true,
+    "theme": "Adaptive.sublime-theme",
+    "line_padding_bottom": 1,
+    "vintage_use_clipboard": true,
+    "open_files_in_new_window": false,
+    // "sublime_merge_path": "",
+    "inline_fold.rules": [
+        {
+            "fold_selector": "string.quoted.single - punctuation.definition.string, string.quoted.double - punctuation.definition.string",
+            "preceding_text": "class,className",
+        }
+    ],
+    "line_padding_top": 1,
+    "keymaps": {
+        "show_pretty_keys": true,
+    },
+    "font_options": [
+        "directwrite",
+        "dwrite_cleartype_natural",
+        "dlig",
+        "ss01"
+    ],
+    "close_windows_when_empty": false,
+    "auto_complete_selector": "text, comment, string",
+    "font_size": 9,
+    "tab_size": 2,
+    /*"translate_tabs_to_spaces": true,*/
+    /*"detect_indentation": false*/
+    "preview_on_click": false,
+    "color_scheme": "Packages/User/Color Highlighter/themes/tokyonight_moon.tmTheme",
+    "ignored_packages": [
+        "Vintage",
+    ],
+    "font_face": "MonaspiceAr NFP + Sarasa Gothic SC + WFM Sans SC",
+    "index_files": true,
+}

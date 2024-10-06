@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<snippet>
+  <content><![CDATA[
+$3
+]]/$4></content>
+  <tabTrigger>$1</tabTrigger>
+  <description>$2</description>
+</snippet>
+]]></content>
+  <tabTrigger>snip</tabTrigger>
+  <description>sublime-snippet</description>
+</snippet>

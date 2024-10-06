@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\qimgv]
+@="&qimgv here"
+"Icon"="C:\\Users\\User\\Opt\\qimgv\\qimgv.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\qimgv\command]
+@="\"C:\\Users\\User\\Opt\\qimgv\\qimgv.exe\" \"%V"
+
+[HKEY_CURRENT_USER\Software\Classes\Drive\shell\qimgv]
+@="&qimgv here"
+"Icon"="C:\\Users\\User\\Opt\\qimgv\\qimgv.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\Drive\shell\qimgv\command]
+@="\"C:\\Users\\User\\Opt\\qimgv\\qimgv.exe\" \"%V"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\qimgv]
+@="&qimgv here"
+"Icon"="C:\\Users\\User\\Opt\\qimgv\\qimgv.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\qimgv\command]
+@="\"C:\\Users\\User\\Opt\\qimgv\\qimgv.exe\" \"%V"

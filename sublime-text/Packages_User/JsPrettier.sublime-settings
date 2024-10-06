@@ -1,0 +1,9 @@
+{
+    "debug": true,
+    // "prettier_cli_path": "",
+    // "node_path": "C:\\Users\\User\\AppData\\Roaming\\fnm\\node-versions\\v20.14.0\\installation\\node.exe",
+    "prettier_options": {
+        "printWidth": 500,
+        "tabWidth": 2
+    },
+}

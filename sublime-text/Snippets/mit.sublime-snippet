@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+[![](https://img.shields.io/github/last-commit/scillidan/$1/master?label=&style=flat-square)](https://github.com/scillidan/$1)
+]]></content>
+  <tabTrigger>mit</tabTrigger>
+  <description>shields mit</description>
+</snippet>

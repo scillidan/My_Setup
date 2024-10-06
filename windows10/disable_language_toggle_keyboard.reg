@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Keyboard Layout\Toggle]
+"Language HotKey"="3"
+"Layout HotKey"="3"
+
+[HKEY_USERS\.DEFAULT\Keyboard Layout\Toggle]
+"Language HotKey"="3"
+"Layout HotKey"="3"

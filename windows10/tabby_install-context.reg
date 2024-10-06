@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\tabby]
+@="Tabby Here"
+"Icon"="C:\\Users\\User\\Opt\\tabby\\Tabby.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\tabby\command]
+@="\"C:\\Users\\User\\Opt\\tabby\\Tabby.exe\" open \"%V"
+
+[HKEY_CLASSES_ROOT\Drive\shell\tabby]
+@="Tabby Here"
+"Icon"="C:\\Users\\User\\Opt\\tabby\\Tabby.exe"
+
+[HKEY_CLASSES_ROOT\Drive\shell\tabby\command]
+@="\"C:\\Users\\User\\Opt\\tabby\\Tabby.exe\" open \"%V"
+
+[HKEY_CLASSES_ROOT\Directory\shell\tabby]
+@="Tabby Here"
+"Icon"="C:\\Users\\User\\Opt\\tabby\\Tabby.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\tabby\command]
+@="\"C:\\Users\\User\\Opt\\tabby\\Tabby.exe\" open \"%V"

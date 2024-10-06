@@ -1,0 +1,43 @@
+./Roms/DC
+./Roms/DOS
+./Roms/FBNEO ACT
+./Roms/FBNEO ACT hack
+./Roms/FBNEO ACT V
+./Roms/FBNEO ETC
+./Roms/FBNEO ETC V
+./Roms/FBNEO FLY
+./Roms/FBNEO FLY V
+./Roms/FBNEO FTG
+./Roms/FBNEO FTG hack
+./Roms/FBNEO STG
+./Roms/FBNEO STG hack
+./Roms/FBNEO STG V
+./Roms/FC
+./Roms/FC-HD
+./Roms/FC hack
+./Roms/GB
+./Roms/GBA
+./Roms/GBC
+./Roms/GG
+./Roms/MAME ACT
+./Roms/MAME ETC
+./Roms/MAME FLY
+./Roms/MAME FLY V
+./Roms/MAME FTG
+./Roms/MAME FTG hack
+./Roms/MAME STG
+./Roms/MAME STG V
+./Roms/MD
+./Roms/MD hack
+./Roms/MD hack(picodrive)
+./Roms/NAOMI
+./Roms/NDS
+./Roms/NGPC
+./Roms/PCE
+./Roms/PS1
+./Roms/PSP
+./Roms/SFC
+./Roms/SFC hack
+./Roms/SS
+./Roms/WS
+./Roms/WSC

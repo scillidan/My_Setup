@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Settings component="StartMenu" version="4.4.191">
+	<MenuStyle value="Classic1"/>
+	<MouseClick value="WindowsMenu"/>
+	<ShiftClick value="Both"/>
+	<WinKey value="Nothing"/>
+	<ShiftWin value="Nothing"/>
+	<Computer value="Hide"/>
+	<SkinC1 value="Metro"/>
+	<SkinVariationC1 value=""/>
+	<SkinOptionsC1>
+		<Line>CAPTION=1</Line>
+		<Line>USER_IMAGE=0</Line>
+		<Line>USER_NAME=0</Line>
+		<Line>CENTER_NAME=0</Line>
+		<Line>SMALL_ICONS=0</Line>
+		<Line>LARGE_FONT=0</Line>
+		<Line>ICON_FRAMES=1</Line>
+		<Line>OPAQUE=0</Line>
+	</SkinOptionsC1>
+	<SkinC2 value=""/>
+	<SkinVariationC2 value=""/>
+	<SkinOptionsC2>
+		<Line>NO_ICONS=1</Line>
+		<Line>USER_IMAGE=1</Line>
+		<Line>USER_NAME=0</Line>
+		<Line>CENTER_NAME=0</Line>
+		<Line>SMALL_ICONS=0</Line>
+		<Line>LARGE_FONT=0</Line>
+		<Line>ICON_FRAMES=1</Line>
+		<Line>OPAQUE=0</Line>
+	</SkinOptionsC2>
+	<EnableStartButton value="1"/>
+	<StartButtonType value="CustomButton"/>
+	<StartButtonPath value="%USERPROFILE%\Github\_\icon-bloodborne-caryll-runes\png_open-shell\darkTheme_Lake.png"/>
+	<CustomTaskbar value="0"/>
+	<TaskbarLook value="Glass"/>
+	<SkipMetro value="1"/>
+	<OpenMouseMonitor value="1"/>
+</Settings>

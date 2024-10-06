@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\alacritty-cmder]
+@="alacritty(cmder) ."
+"Icon"="C:\\Users\\User\\Opt\\alacritty\\Alacritty.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\alacritty-cmder\command]
+@="\"C:\\Users\\User\\Opt\\alacritty\\Alacritty.exe\" --config-file \"C:\\Users\\User\\Github\\My_Setup\\alacritty\\alacritty_cmder.toml\" --working-directory \"%V"
+
+[HKEY_CLASSES_ROOT\Drive\shell\alacritty-cmder]
+@="alacritty(cmder) ."
+"Icon"="C:\\Users\\User\\Opt\\alacritty\\Alacritty.exe"
+
+[HKEY_CLASSES_ROOT\Drive\shell\alacritty-cmder\command]
+@="\"C:\\Users\\User\\Opt\\alacritty\\Alacritty.exe\" --config-file \"C:\\Users\\User\\Github\\My_Setup\\alacritty\\alacritty_cmder.toml\" --working-directory \"%V"
+
+[HKEY_CLASSES_ROOT\Directory\shell\alacritty-cmder]
+@="alacritty(cmder) ."
+"Icon"="C:\\Users\\User\\Opt\\alacritty\\Alacritty.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\alacritty-cmder\command]
+@="\"C:\\Users\\User\\Opt\\alacritty\\Alacritty.exe\" --config-file \"C:\\Users\\User\\Github\\My_Setup\\alacritty\\alacritty_cmder.toml\" --working-directory \"%V"

@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+@echo off
+
+set "HOME=C:\Users\User"
+
+set "$1_DATA=%APPDATA%\\$1$2$4"
+set "$1_OPT=%HOME%\Opt\\$1$2"
+set "$1_SETUP=%HOME%\Github\My_Setup\\$1$2"
+set "$1_DL=%HOME%\Download\\$1$2"
+set "$1_SRC=%HOME%\Source\\$1$2"
+
+pause
+]]></content>
+  <tabTrigger>snbat</tabTrigger>
+  <description>SETUP bat</description>
+</snippet>

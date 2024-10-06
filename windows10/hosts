@@ -1,0 +1,30 @@
+127.0.0.1 localhost
+# 127.0.0.1 0.0.0.0
+140.82.113.3 github.com # git
+185.199.108.133 githubusercontent.com
+18.154.227.7 huggingface.co
+104.16.0.35 npmjs.org                  # registry
+104.16.0.35 registry.npmjs.org
+104.16.24.34 npmjs.org
+146.75.28.223 python.org
+146.75.28.223 pypi.python.org
+151.101.0.223 pypi.org
+108.138.64.48 crates.io
+# 142.251.32.17 proxy.golang.org
+13.32.151.28 download.docker.com
+202.120.2.119 sjtu.edu.cn              # mirror
+151.101.1.229 cdn.jsdelivr.net
+0.0.0.1 tencentcloudapi.com            # api
+184.31.138.32 api.steampowered.com
+104.21.59.58 devdocs.io # opt
+185.199.108.153 jellyfin.org
+68.183.204.194 repo.jellyfin.org
+128.199.73.36 sgp1.mirror.jellyfin.org
+23.0.18.123 steamcommunity.com         # steam
+23.1.198.56 steampowered.com
+# 127.0.0.1	lm.licenses.adobe.com      # block
+# 127.0.0.1	na1r.services.adobe.com
+# 127.0.0.1	hlrcv.stage.adobe.com
+# 127.0.0.1	practivate.adobe.com
+# 127.0.0.1	activate.adobe.com
+## 

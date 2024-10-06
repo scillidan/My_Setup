@@ -1,0 +1,51 @@
+import = [ "C:\\Users\\User\\Github\\My_Setup\\alacritty\\colorschemetokyonight_moon.yaml" ]
+live_config_reload = true
+# working_directory =
+
+[window]
+dynamic_title = false
+decorations = "none"
+startup_mode = "Windowed"
+
+  # [window.dimensions]
+  # columns = 100
+  # lines = 30
+
+  # [window.padding]
+  # x = 10
+  # y = 40
+
+  # [window.position]
+  # x = 620
+  # y = 100
+
+[font]
+size = 8
+
+  [font.normal]
+  family = "Sarasa Term SC Nerd"
+  # family = "JetBrainsMonoNL Nerd Font"
+  style = "Regular"
+
+  [font.bold]
+  family = "Sarasa Term SC Nerd"
+  # family = "JetBrainsMonoNL Nerd Font"
+  style = "Bold"
+
+[selection]
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+save_to_clipboard = true
+
+[shell]
+program = "C:\\msys64\\usr\\bin\\bash.exe"
+args = [ "--login" ]
+
+[mouse]
+bindings = [
+  { mouse = "Right", action = "PasteSelection" },
+]
+
+[keyboard]
+bindings = [
+  { key = "D", mods = "Control", action = "Quit" },
+]

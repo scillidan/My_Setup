@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+set "PATH=$1%PATH%"
+]]></content>
+  <tabTrigger>path</tabTrigger>
+  <description>set cmder path</description>
+</snippet>

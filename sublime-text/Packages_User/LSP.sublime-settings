@@ -1,0 +1,17 @@
+{
+  "clients": {
+    "reason": {
+      "enabled": true,
+      "command": ["C:\\Users\\User\\Source\\sublime-text_downloads\\reason-language-server\\reason-language-server.exe"],
+      "scopes": ["source.reason", "source.ocaml"],
+      "syntaxes": ["Packages/Reason/Reason.tmLanguage", "Packages/sublime-reason/Reason.tmLanguage", "Packages/OCaml/OCaml.sublime-syntax"],
+      "languageId": "reason"
+    },
+    "quick-lint-js": {
+      "enabled": true,
+      "command": ["quick-lint-js", "--lsp-server"],
+      "enabled": true,
+      "selector": "source.js"
+    },
+  }
+}

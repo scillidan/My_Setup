@@ -1,0 +1,42 @@
+[
+    {
+        "caption": "FilterPipes : Kebab Case",
+        "command": "filter_pipes_regex",
+        "args": {
+            "regex": "\\s|(\\B)([A-Z]) ",
+            "after": "-"
+        }
+    },
+    {
+        "caption": "FilterPipes : Snake Case",
+        "command": "filter_pipes_regex",
+        "args": {
+            "regex": "\\s|(\\B)([A-Z])",
+            "replacement": "_"
+        }
+    },
+    {
+        "caption": "FilterPipes : Replace non-word to space",
+        "command": "filter_pipes_regex",
+        "args": {
+            "regex": "\\W'",
+            "replacement": " "
+        }
+    },
+    {
+        "caption": "FilterPipes : Convert to Straight Quotes",
+        "command": "filter_pipes_translate",
+        "args": {
+            "before": "\u201c\u201d\u201f\u301d\u301e\uff02\u201e\u301f\u2018\u2019\u201b\uff07\u201a",
+            "after": "\"\"\"\"\"\"\"\"'''''"
+        }
+    },
+    {
+        "caption": "FilterPipes : Chinese Punctuation to Space",
+        "command": "filter_pipes_translate",
+        "args": {
+            "before": "\uFF0C\u3002\uFF01\FF1F\u3001",
+            "after": " "
+        }
+    },
+]

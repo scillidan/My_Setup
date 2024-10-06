@@ -1,0 +1,87 @@
+﻿BundleFormat: 1
+Name: command
+Description: 
+Author: scillidan
+TitleMatch: 
+Patterns:
+- LLPart1: handbrakecli --preset-import-file C:\Users\User\Temp\handbrake\1080p.json --input ^| --output _.mp4
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: silicon --from-clipboard --language ^| --theme "tokyonight_moon" --font "'MonaspiceNe NFP + Sarasa Gothic SC + WFM Sans SC'=16" --no-window-controls --pad-horiz 0 --pad-vert 0 --background "#222436" --tab-width 2 --line-offset 0 --line-pad 4 --output _silicon.png
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: bilix --debug --quality 1080p --dir C:\Users\User\Video --video-con 1 --cookie 61523782-CBA7-92CF-7797-6A94155F5AC738318infoc get_series ^|
+  LLPart2: bilix --debug --quality 1080p --dir C:\Users\User\Video --video-con 1 --cookie 61523782-CBA7-92CF-7797-6A94155F5AC738318infoc get_collect ^|
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ffmpeg.exe -i ^|.mp4 -vcodec libwebp -vf scale=1200:-1 -loop 0 _.webp
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ffmpeg -i ^|.gif -movflags faststart -pix_fmt yuv420p -vf "fps=30,scale=trunc(iw/2)*2:trunc(ih/2)*2" -c:v libx264 -crf 23 -preset medium ^|.mp4
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: open-cli http://localhost:4321 && mkdocs serve --dev-addr localhost:4321
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: open-cli http://localhost:1313 && hugo server -p 1313
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ffmpeg -i ^|.mp4 -vframes 1 _poster.jpg
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ffmpeg -i ^| -movflags faststart -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" _.mp4
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: w2vgrep /C 2 /n /t 0.55 /m "C:\Users\User\Model\googlenews-slim\GoogleNews-vectors-negative300-SLIM.bin" death /f ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: prettier --write --paser json ^|.json
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: magick convert ^|.png -channel RGB -negate _.png
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ugrep -Q ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: cash ^| usd cny
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: rga ^| -g "*.epub"
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+
+- LLPart1: ffmpeg -i ^| -map 0:s:0 _.srt
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript:

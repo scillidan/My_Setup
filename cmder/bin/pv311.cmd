@@ -1,0 +1,1 @@
+%HOME%\Lib\python-3.11\python.exe -m venv venv && venv\Scripts\activate.bat

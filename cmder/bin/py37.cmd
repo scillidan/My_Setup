@@ -1,0 +1,1 @@
+C:\Users\User\Lib\python-3.7-32\python.exe %*

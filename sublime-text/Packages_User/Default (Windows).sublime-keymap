@@ -1,0 +1,27 @@
+[
+    { "keys": ["alt+f"], "command": "toggle_in_selection", "context": { "key": "setting.is_widget", "operator": "equal", "operand": true } },
+    { "keys": ["alt+shift+`"], "command": "show_panel", "args": { "panel": "console", "toggle": true} },
+    { "keys": ["ctrl+k", "ctrl+p"], "command": "fuzzy_active_project"},
+    { "keys": ["ctrl+k", "ctrl+shift+t"], "command": "toggle_terminus_panel", "args": { "cmd": ["cmd.exe", "/k", "%CMDER_ROOT%\\vendor\\init.bat"], "cwd": "${file_path:${folder}}" } },
+    { "keys": ["alt+w"], "command": "toggle_terminus_panel" },
+    { "keys": ["alt+shift+w"], "command": "terminus_close", "context": [{ "key": "terminus_view"}] },
+    { "keys": ["ctrl+shift+z"], "command": "dash_doc", "args": { "flip_syntax_sensitive": true } },
+    { "keys": ["ctrl+shift+alt+p"], "command": "show_overlay", "args": { "overlay": "command_palette"} },
+    { "keys": ["ctrl+alt+p"],  "command": "project_manager", "args": { "action": "open_project_in_new_window"} },
+    {
+      "keys": ["ctrl+shift+alt+e"],
+      "command": "align_tab",
+      "args": {"mode": true, "user_input": "(?<!\\\\)\\|"},
+      "context":
+        [
+          { "key": "selector", "operator": "equal", "operand": "text.html.markdown" }
+        ]
+    },
+    { "keys": ["alt+\\"],           "command": "datawizardjustifycolumns"},
+    { "keys": ["alt+shift+\\"],     "command": "datawizardcollapsecolumns"},
+]
+
+// { "keys": ["ctrl+alt+o"], "command": "project_manager", "args": { "action": "open_project_in_new_window"} },
+// { "keys": ["ctrl+k", "ctrl+t"], "command": "terminus_open", "args": { "cmd": ["cmd.exe", "/k", "%CMDER_ROOT%\\vendor\\init.bat"], "cwd": "${file_path:${folder}}", "title": "cmder" } },
+//"C-, ," "Advanced CSV"
+//"C-, Spc" "Advanced CSV"

@@ -1,0 +1,97 @@
+vim.api.nvim_set_keymap('n', '<leader>t', ':Neotree toggle<CR>', { noremap = true })
+
+vim.api.nvim_set_keymap('n', '<leader>?', '<cmd>lua require("which-key").show({ global = false })<CR>',{ noremap = true, silent = true, desc = "Buffer Local Keymaps (which-key)" })
+
+vim.api.nvim_set_keymap('n', 'gpd', '<cmd>lua require("goto-preview").goto_preview_definition()<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', 'gpt', '<cmd>lua require("goto-preview").goto_preview_type_definition()<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', 'gpi', '<cmd>lua require("goto-preview").goto_preview_implementation()<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', 'gpD', '<cmd>lua require("goto-preview").goto_preview_declaration()<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', 'gP', '<cmd>lua require("goto-preview").close_all_win()<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', 'gpr', '<cmd>lua require("goto-preview").goto_preview_references()<CR>', { noremap = true, silent = true })
+
+vim.api.nvim_set_keymap('n', '<leader>zt', ':ToggleCursorTop<CR>',{ noremap = true, silent = true, desc = "KeepCursor: keep cursor positioned at top on cursor move" })
+vim.api.nvim_set_keymap('n', '<leader>zb', ':ToggleCursorBot 2<CR>',{ noremap = true, silent = true, desc = "KeepCursor: keep cursor positioned at bottom on cursor move" })
+vim.api.nvim_set_keymap('n', '<leader>zz', ':ToggleCursorMid<CR>',{ noremap = true, silent = true, desc = "KeepCursor: keep cursor positioned at middle on cursor move" })
+vim.api.nvim_set_keymap('n', '<leader>ze', ':ToggleCursorRight 30<CR>',{ noremap = true, silent = true, desc = "KeepCursor: keep cursor positioned to the right on cursor move" })
+vim.api.nvim_set_keymap('n', '<leader>zs', ':ToggleCursorLeft<CR>',{ noremap = true, silent = true, desc = "KeepCursor: keep cursor positioned to the left on cursor move" })
+
+vim.api.nvim_set_keymap('n', '<leader>l', ':TemporaryToggle<CR>',{ noremap = true, silent = true, desc = "TruncateLine temporary toggle" })
+vim.api.nvim_set_keymap('n', '<leader>sl', ':ToggleTruncate<CR>',{ noremap = true, silent = true, desc = "TruncateLine toggle" })
+
+local builtin = require("telescope.builtin")
+vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
+vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
+vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
+vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
+
+vim.api.nvim_set_keymap('n', '<leader>lz', ':Telescope lazy<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader><leader>', ':Telescope cmdline<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>zi', ':Telescope zoxide list<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>fr', ':Telescope frecency<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>pj', ':Telescope neovim-project discover<CR>', {noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>ph', ':Telescope neovim-project history<CR>', {noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>pr', ':NeovimProjectLoadRecent<CR>', {noremap = true })
+vim.api.nvim_set_keymap('n', '<leader>rl', ':Telescope repo list<CR>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<leader>fd', '<cmd>Telescope dir live_grep<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>pd', '<cmd>Telescope dir find_files<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>br', ':Telescope file_browser<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>mf', ':Telescope media_files<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>mj', ':Telescope emoji<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>im', ':Telescope import<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>es', ':Telescope everything<CR>', { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap( 'n', '<leader>ch', ':Cheatsheet<CR>', { noremap = true, silent = true })
+
+function _G.set_terminal_keymaps()
+  local opts = {buffer = 0}
+  vim.keymap.set('t', '<esc>', [[<C-\><C-n>]], opts)
+  vim.keymap.set('t', 'jk', [[<C-\><C-n>]], opts)
+  vim.keymap.set('t', '<C-h>', [[<Cmd>wincmd h<CR>]], opts)
+  vim.keymap.set('t', '<C-j>', [[<Cmd>wincmd j<CR>]], opts)
+  vim.keymap.set('t', '<C-k>', [[<Cmd>wincmd k<CR>]], opts)
+  vim.keymap.set('t', '<C-l>', [[<Cmd>wincmd l<CR>]], opts)
+  vim.keymap.set('t', '<C-w>', [[<C-\><C-n><C-w>]], opts)
+end
+
+vim.cmd("autocmd! TermOpen term://* lua set_terminal_keymaps()")
+
+local Terminal  = require("toggleterm.terminal").Terminal
+local lazygit = Terminal:new({ cmd = 'lazygit', hidden = true })
+
+function _lazygit_toggle()
+  lazygit:toggle()
+end
+
+-- vim.api.nvim_set_keymap( 'n', '<Leader>t', '<cmd>lua require("whitespace-nvim").trim()<CR>', { noremap = true, silent = true })
+
+vim.api.nvim_set_keymap('v', '<leader>r', '<cmd>FlowRunSelected<CR>', {})
+vim.api.nvim_set_keymap('n', '<leader>rr', '<cmd>FlowRunFile<CR>', {})
+vim.api.nvim_set_keymap('n', '<leader>rt', '<cmd>FlowLauncher<CR>', {})
+vim.api.nvim_set_keymap('n', '<leader>rp', '<cmd>FlowRunLastCmd<CR>', {})
+vim.api.nvim_set_keymap('n', '<leader>rp', '<cmd>FlowLastOutput<CR>', {})
+vim.api.nvim_set_keymap('n', '<M-`>', ':ToggleTerm<CR>', {noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>lg', '<cmd>lua _lazygit_toggle()<CR>', {noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>as', '<cmd>ASToggle<CR>', {})
+vim.api.nvim_set_keymap('n', '<Leader>dc', '<cmd>lua require("dap").continue()<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>dl', '<cmd>lua require("dap").run_last()<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>dr', '<cmd>lua require("dap").repl.open({ height = 6 })<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>b', '<cmd>lua require("dap").toggle_breakpoint()<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>du', '<cmd>lua require("dapui").toggle()<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>gf', ':lua require("grug-far").open({ engine = "astgrep" })<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>co', '<Plug>HemingwayComment', {noremap = true, silent = true })
+vim.api.nvim_set_keymap('v', '<leader>co', '<Plug>HemingwayMultiComment<CR>', {noremap = true, silent = true })
+
+-- local rss = require("nvim-rss")
+-- vim.api.nvim_create_user_command('OpenRssView', function() rss.open_feeds_tab() end, {})
+-- vim.api.nvim_create_user_command('FetchFeed', function() rss.fetch_feed() end, {})
+-- vim.api.nvim_create_user_command('FetchAllFeeds', function() rss.fetch_all_feeds() end, {})
+-- vim.api.nvim_create_user_command('FetchFeedsByCategory', function() rss.fetch_feeds_by_category() end, {})
+-- vim.api.nvim_create_user_command('FetchSelectedFeeds', function(opts) rss.fetch_selected_feeds(opts.range) end, { range = true })
+-- vim.api.nvim_create_user_command('ViewFeed', function() rss.view_feed() end, {})
+-- vim.api.nvim_create_user_command('CleanFeed', function() rss.clean_feed() end, {})
+-- vim.api.nvim_create_user_command('ResetDB', function() rss.reset_db() end, {})
+-- vim.api.nvim_create_user_command('ImportOpml', function(opts) rss.import_opml(opts.args) end, { nargs = 1 })
+
+-- vim.api.nvim_set_keymap( 'n', "<leader>,",'<cmd>lua require("md-pdf").convert_md_to_pdf()<CR>', {noremap = true, silent = true })
+-- vim.keymap.set('n', '<leader>,', function()
+--     require("md-pdf").convert_md_to_pdf()
+-- end)

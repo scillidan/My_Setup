@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+![](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+]]></content>
+  <tabTrigger>!vercel2</tabTrigger>
+  <description>shields.io vercel</description>
+</snippet>

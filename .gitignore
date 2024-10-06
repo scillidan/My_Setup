@@ -1,0 +1,15 @@
+git-sync
+mpv/**/_config_dir*
+mpv/**/memo-history.log
+_rc/cargo/.*
+_rc/cargo/registry/
+_rc/nvm/v*
+cmder/config/user-ConEmu.xml
+keypirinha/Profile/User/Keypirinha.history
+keypirinha/Profile/User/currency.ini
+keypirinha/Profile/User/github.ini
+keypirinha/_User/filebrowser/
+lintalist/lintalist/bundles/command.txt
+obsidian/Config/workspace
+obsidian/Config/workspace.json
+sublime-text/Packages_User/Package Control.sublime-settings

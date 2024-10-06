@@ -1,0 +1,4 @@
+matches:
+  - trigger: ":code"
+    replace: "```sh\n$|$\n```"
+    passive_only: true

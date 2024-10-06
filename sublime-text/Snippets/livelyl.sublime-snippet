@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+| [title](url) | [artist](url) | [CC BY-NC-SA 3.0](//creativecommons.org/licenses/by-nc-sa/3.0)  | ![](_media/$1.png) | [Github](//github.com/scillidan/tree/master/$1)  | [++](//steamcommunity.com/sharedfiles/filedetails?id=++) ![](https://img.shields.io/steam/subscriptions/++?style=flat-square&label=) ![](https://img.shields.io/steam/downloads/++?style=flat-square&label=)  |
+]]></content>
+  <tabTrigger>livelyl</tabTrigger>
+  <description>table line</description>
+</snippet>

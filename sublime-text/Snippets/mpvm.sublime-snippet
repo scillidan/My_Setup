@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+mklink "%%d\\%SD%\\$2.lua" "%SRC%\\${1:\scripts}\\$2.lua"
+mklink "%%d\\%SOD%\\$2.conf" "%SRC%\\$1:\scripts-opts\\$2.conf"
+]]></content>
+  <tabTrigger>mpvm</tabTrigger>
+  <description>mpv mklink</description>
+</snippet>

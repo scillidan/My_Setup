@@ -1,0 +1,7 @@
+patch:
+  punctuator/import_preset: symbols
+  # translator/dictionary: extended
+  # custom_phrase/user_dict: custom_phrase
+  # engine:
+  #   processors:
+  #     - lua_processor@select_character

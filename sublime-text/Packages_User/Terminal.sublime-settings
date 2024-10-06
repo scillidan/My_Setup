@@ -1,0 +1,4 @@
+{
+  "terminal": "C:\\Users\\User\\Opt\\cmder_mini\\Cmder.exe",
+  "parameters": ["/SINGLE", "%CWD%"]
+}
