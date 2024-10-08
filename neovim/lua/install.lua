@@ -42,7 +42,7 @@ require("lazy").setup({
   { "rlychrisg/truncateline.nvim" },
   { "mawkler/modicator.nvim" },
   { "sontungexpt/stcursorword", event = "VeryLazy", config = true },
-  { "ukyouz/syntax-highlighted-cursor.nvim" },
+  -- { "ukyouz/syntax-highlighted-cursor.nvim" },
   { "rlychrisg/keepcursor.nvim" },
   { "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",

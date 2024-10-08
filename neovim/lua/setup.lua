@@ -102,7 +102,7 @@ require('goto-preview').setup({
 --   ignore_terminal = true,
 --   return_cursor = true
 -- }) m
-require("syntax-highlighted-cursor").setup()
+-- require("syntax-highlighted-cursor").setup()
 require("keepcursor").setup({
   enabled_on_start_v = "none",
   enabled_on_start_h = "none"

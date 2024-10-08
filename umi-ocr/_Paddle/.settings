@@ -45,7 +45,7 @@ other.simpleNotificationType=default
 [TabPageManager]
 showPageIndex=0
 openPageList=ScreenshotOCR/ScreenshotOCR.qml, QRCode/QRCode.qml, GlobalConfigsPage/GlobalConfigsPage.qml
-refresh=true
+refresh=false
 
 [QRCode]
 configs_advanced=false

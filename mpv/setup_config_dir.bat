@@ -1,6 +1,29 @@
 @echo off
 
-call %~dp0\set_env.bat
+set "HOME=C:\Users\User"
+
+set "MPV_CONFIG=%APPDATA%\mpv"
+set "MPV_OPT=%HOME%\Opt\mpv"
+set "MPV_SETUP=%HOME%\Github\My_Setup\mpv"
+set "MPV_DL=%HOME%\Download\mpv"
+set "MPV_SRC=%HOME%\Source\mpv"
+
+set "IND=input"
+set "INCLD=include"
+set "INCLOD=include-opts"
+set "SD=scripts"
+set "SOD=script-opts"
+set "SMD=script-modules"
+set "SSD=%MPV_SETUP%\%SD%"
+set "SSOD=%MPV_SETUP%\%SOD%"
+
+set "CONFIG_DIR_TEST=%MPV_SETUP%\_config_dir_test"
+set "CONFIG_DIR_VIDEO=%MPV_SETUP%\_config_dir_video"
+set "CONFIG_DIR_STREAM=%MPV_SETUP%\_config_dir_stream"
+set "CONFIG_DIR_EDIT=%MPV_SETUP%\_config_dir_edit"
+set "CONFIG_DIR_MUSIC=%MPV_SETUP%\_config_dir_music"
+set "CONFIG_DIR_KARAOK=%MPV_SETUP%\_config_dir_karaok"
+set "CONFIG_DIR_MANGA=%MPV_SETUP%\_config_dir_manga"
 
 set "CONFIG_DIR_ALL=%CONFIG_DIR_GLOBAL% %CONFIG_DIR_TEST% %CONFIG_DIR_VIDEO% %CONFIG_DIR_STREAM% %CONFIG_DIR_EDIT% %CONFIG_DIR_MUSIC% %CONFIG_DIR_KARAOK% %CONFIG_DIR_MANGA%"
 
@@ -257,5 +280,10 @@ for %%d in (%CONFIG_IMAGE%) do (
     type "%MPV_SRC%\mpv-image-config\mpv.conf" >> "%%d\mpv.conf"
     type "%MPV_SRC%\mpv-image-config\input.conf" >> "%%d\input.conf"
 )
+
+rmdir /S /Q %MPV_CONFIG%
+mkdir %MPV_CONFIG%
+
+C:\Users\User\Opt\FastCopy\FastCopy.exe /open_window /auto_close %CONFIG_DIR_VIDEO% /to=%MPV_CONFIG%
 
 pause
