@@ -2,6 +2,9 @@ git-sync
 mpv/**/_config_dir*
 mpv/**/memo-history.log
 _rc/cargo/.*
+_rc/cargo/tmp/
+_rc/cargo/debug/
+_rc/cargo/release/
 _rc/cargo/registry/
 _rc/nvm/v*
 cmder/config/user-ConEmu.xml
