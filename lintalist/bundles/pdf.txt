@@ -1,0 +1,46 @@
+BundleFormat: 1
+Name: pdf
+Description: 
+Author: 
+TitleMatch: 
+Patterns:
+- LLPart1: pdf-toc -t _pdf -d _toc.txt ^|
+  LLPart2: pdf-toc
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: markpdf ^| mark.png --opacity=0.3
+  LLPart2: markpdf
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: python pdf_pdfalyzer.py ^|
+  LLPart2: pdfalyzer
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: java -jar batchpdfsign-portable.jar -k <file.pfx> -p <password> -i ^| -o _sig.pdf
+  LLPart2: batchpdfsign
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: java -jar open-pdf-sign.jar --input ^| --output _sig.pdf --certificate <file.crt> --key <file.pem> --passphrase <password> --page -1 --locale zh-CN
+  LLPart2: open-pdf-sign
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: percollate pdf ^| -o _.pdf --css ":root { --main-font: 'Beholden Medium';  --code-font: 'Beholden Medium'; --alt-font: 'Beholden Medium'; }"
+  LLPart2: percollate pdf
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: percollate epub ^| -o _.epub
+  LLPart2: percollate epub
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: paperoni ^| --export epub
+  LLPart2: paperoni
+  LLKey: 
+  LLShorthand:
+  LLScript: 

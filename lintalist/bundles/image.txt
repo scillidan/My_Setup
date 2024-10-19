@@ -1,0 +1,116 @@
+BundleFormat: 1
+Name: image
+Description: 
+Author: 
+TitleMatch: 
+Patterns:
+- LLPart1: oxipng -o 4 -i 1 --strip safe *.png
+  LLPart2: oxipng
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: svg2png ^| -w <width> -o _.png
+  LLPart2: svg2png
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: rembg i -a -ae 15 ^| _.png
+  LLPart2: rembg
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: pyxelate ^| <output> --factor 9 --upscale 5 --palette 10 --nosvd
+  LLPart2: pyxelate
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: gifsicle -O3 --lossy=80 --resize-width 600 ^| -o _.gif
+  LLPart2: gifsicle
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: video-to-ascii -f ^| --strategy ascii-color
+  LLPart2: video-to-ascii
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: vtracer -i ^| -o _.svg
+  LLPart2: to svg
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ascii-image-converter ^| -C -b --dither -d 100,35
+  LLPart2: ascii-image-converter
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ascii-silhouettify --input ^|
+  LLPart2: quasar-ascii-silhouettify
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: magick convert ^| -define bmp:format=bmp3 _.bmp && autotrace -output-file _.svg -input-format bmp -despeckle-level <level> -color-count <number> _.bmp
+  LLPart2: autotrace bmp
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: paletter -colors <number> ^|
+  LLPart2: paletter
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: color-matcher -s ^| -r $2
+  LLPart2: color-matcher
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: java -jar imagetheming/build/libs/ImageTheming.jar ^| -t=<theme>
+  LLPart2: imagetheming
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: png-to-ico ^| > _.ico
+  LLPart2: png-to-ico
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: favocon ^| -o ./favicon
+  LLPart2: favocon
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: faviator --size 512 --text ^| --font-size 12 --font-family "Pridi" --font-color #000 --font-weight 400 --background-color #fff --border-width 0 --border-color 0 --border-radius 0 -o favicon.png
+  LLPart2: faviator
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: png2svg -v -l -o ^| _.png
+  LLPart2: png2svg
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: silicon --from-clipboard --language ^| --theme "tokyonight_moon" --font "'MonaspiceNe NFP + Sarasa Gothic SC + WFM Sans SC'=16" --no-window-controls --pad-horiz 0 --pad-vert 0 --background "#222436" --tab-width 2 --line-offset 0 --line-pad 4 --output _.png
+  LLPart2: silicon
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: silicon --from-clipboard --language "Text" --font "'MonaspiceNe NFP + Sarasa Gothic SC + WFM Sans SC'=16" --no-window-controls --pad-horiz 0 --pad-vert 0 --background "#fffff8" --tab-width 2 --line-offset 0 --line-pad 4 --output _.png
+  LLPart2: silicon text
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: mt -n 16 -c 4 --disable-timestamps --header=false ^|
+  LLPart2: Take Thumbnail
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: mtn -c 4 -r 4 -g 3 -k 000000 -w 1920 -i -t -D 4 -P -o _mtn.png ^|
+  LLPart2: Take Thumbnail
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: vcsi -w 1920 --metadata-position hidden ^|
+  LLPart2: Take Thumbnail
+  LLKey: 
+  LLShorthand: 
+  LLScript: 

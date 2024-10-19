@@ -1,0 +1,21 @@
+BundleFormat: 1
+Name: text
+Description: 
+Author: 
+TitleMatch: 
+Patterns:
+- LLPart1: neovide --neovim-bin W:\home\<User>\bin\nvim --geometry 100x30 --notabs --frame none -- -u "W:\home\<User>\.local\share\lunarvim\lvim\init.lua" ^|
+  LLPart2: neovide lvim wsl
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: set EDITOR=nvim.exe && alacritty --config-file "alacritty_config.yml" --command "renamer.exe --yes *"
+  LLPart2: pipe-rename
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: rga $1 -g "*.epub"
+  LLPart2: rga
+  LLKey: 
+  LLShorthand: 
+  LLScript: 

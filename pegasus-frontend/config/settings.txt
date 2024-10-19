@@ -1,7 +1,5 @@
-general.locale: zh
 general.verify-files: true
 general.input-mouse-support: true
-general.fullscreen: true
 providers.steam.enabled: false
 providers.gog.enabled: false
 providers.es2.enabled: false

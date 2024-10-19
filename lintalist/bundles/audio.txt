@@ -1,0 +1,26 @@
+BundleFormat: 1
+Name: audio
+Description: 
+Author: 
+TitleMatch: 
+Patterns:
+- LLPart1: timidity ^| -Ow -o - | ffmpeg -i - -acodec libmp3lame -ab 64k _.mp3
+  LLPart2: timidity
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: audiowaveform -i ^| -o _.png -z auto -w 1920 -h 150 --background-color fffff8 --waveform-color 111111 --axis-label-color fffff8 --border-color fffff8
+  LLPart2: audiowaveform
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ZonyLrcTools.Cli.exe download -d "^|" -l -n 2
+  LLPart2: ZonyLrcTools
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: m3u8 -u="$1" -o="_"
+  LLPart2: m3u8
+  LLKey: 
+  LLShorthand: 
+  LLScript:

@@ -1,0 +1,51 @@
+BundleFormat: 1
+Name: video
+Description: 
+Author: 
+TitleMatch: 
+Patterns:
+- LLPart1: mnamer -b .
+  LLPart2: mnamer
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: sub-batch alass
+  LLPart2: sub-batch
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: sub-batch time-mpv
+  LLPart2: sub-batch
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: sub-batch rename --subarea ".+"
+  LLPart2: sub-batch
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: srt-vtt ^|
+  LLPart2: srt-vtt
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: vtt_to_srt ^|
+  LLPart2: vtt_to_srt
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ass2srt ^|.ass
+  LLPart2: ass2srtq
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: handbrakecli --preset-import-file <preset.json> --input ^| --output _.mp4
+  LLPart2: handbrakecli
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: dotnet PgsToSrt.dll --input ^|.sup --output _.srt --tesseractlanguage <language> --tesseractdata "C:\Users\User\Data\tessdata_fast"
+  LLPart2: PgsToSrt
+  LLKey: 
+  LLShorthand: 
+  LLScript: 

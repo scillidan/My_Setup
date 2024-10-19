@@ -1,0 +1,31 @@
+BundleFormat: 1
+Name: cache
+Description: 
+Author: 
+TitleMatch: 
+Patterns:
+- LLPart1: mpv --input-ipc-server=/./pipe/kamite-mpvsocket --sub-file=%2 --sid=2 --secondary-sid=1 --secondary-sub-visibility=no --save-position-on-quit ^|
+  LLPart2: kamite
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: node ./legumes/legc --format svg --stem-length 3 --title-text-size 28 --page-margin-x 120 ^| > _.svg
+  LLPart2: legumes
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: node ./fishdraw/fishdraw.js --seed $* --format smil --speed 2 > _.svg
+  LLPart2: fishdraw
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: igir copy zip report --dat ./dats/*.zip --input ./ --output ./ --dir-dat-name --only-retail
+  LLPart2: igir
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: av1an -i ^|  -v "--cpu-used=3 --end-usage=q --cq-level=30 --threads=8" -w 10 --target-quality 95 -a "-c:a libopus -b:a 192k -ac 2" -l _.log -o _.mp4
+  LLPart2: av1an
+  LLKey: 
+  LLShorthand: 
+  LLScript: 

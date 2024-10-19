@@ -1,0 +1,56 @@
+BundleFormat: 1
+Name: gmic
+Description: 
+Author: 
+TitleMatch: 
+Patterns:
+- LLPart1: gmic ^| $2 +matchpatch[0] [1],3 +warp[-2] [-1],0
+  LLPart2: matchpatch
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: gmic ^| quantize 6 blur 1 round[-1] quantize_area[-1] 2
+  LLPart2: quantize_blur
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: gmic ^| quantize 3 +split_colors , display_rgba
+  LLPart2: quantize_splitcolors
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: gmic ^| segment_watershed 4
+  LLPart2: watershed
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: gmic ^| +srgb2lab slic[-1] 16 +blend shapeaverage f[-2] "j(1,0)==i && j(0,1)==i" *[-1] [-2]
+  LLPart2: srgb2lab_blend
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: gmic ^| topographic_map 10
+  LLPart2: topographic
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: gmic ^| kuwahara 9
+  LLPart2: kuwahara
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: gmic ^| grid 10%,16%,0,0,0.2,255
+  LLPart2: grid
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: gmic ^| montage H1:V0:VH2:1H0:3
+  LLPart2: montage
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: gmic ^| frame_xy 1,1,0 frame_xy 10,5,0,0,0
+  LLPart2: frame
+  LLKey: 
+  LLShorthand: 
+  LLScript:

@@ -1,0 +1,81 @@
+BundleFormat: 1
+Name: magick
+Description: 
+Author: 
+TitleMatch: 
+Patterns:
+- LLPart1: magick convert ^| -ordered-dither h4x4o -colors 8 $2
+  LLPart2: dither
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: magick convert ^| -colorspace Gray -ordered-dither o2x2 $2
+  LLPart2: dither gray
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: magick convert ^| -paint 3 $2
+  LLPart2: paint
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: magick convert ^| -colorspace gray -sketch 0x10+120 $2
+  LLPart2: sketch
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: magick convert ^| -charcoal 2 $2
+  LLPart2: charcoal
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: convert ^|.png -channel RGB -negate _.png
+  LLPart2: complementary color
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: magick convert ^| -bordercolor #000 -border 1 $2
+  LLPart2: border
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: magick convert ^|.png -crop x1500 _%d.png
+  LLPart2: crop
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: magick montage ^| -resize 750x -geometry +0+0 -tile 1x _.png
+  LLPart2: montage tile 1x
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: 
+  LLPart2: montage tile x1
+  LLKey: magick montage ^| -density 300 -tile x1 -geometry +1+1 -background #000 _.png && magick convert -border 1 -bordercolor #000 -strip -interlace Plane -quality 0.85 _.png _.jpg
+  LLShorthand: 
+  LLScript: 
+- LLPart1: magick mogrify -format png ^|
+  LLPart2: bmp to png
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: magick convert "*.{png,jpeg}" -quality 100 _.pdf
+  LLPart2: to pdf
+  LLKey: 
+  LLShorthand: 
+  LLScript:
+- LLPart1: magick convert ^| -undercolor #00000075 -fill #FFFFFF -gravity NorthWest -font "C:\Users\User\Github\_\Nerd-Sarasa-Merge\MonaspiceNeNFP-SarasaGothicSC-WFMSansSC.ttf" -pointsize 20 -interline-spacing 2 -annotate +10+10 $2 _.png
+  LLPart2: annotate
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: magick convert -size $2 -background #000000 -fill #fffff8 -font "C:\Users\User\Github\_\Nerd-Sarasa-Merge\MonaspiceNeNFP-SarasaGothicSC-WFMSansSC.ttf" -gravity Center -pointsize 20 -interline-spacing 2 caption:$3 ^|.png
+  LLPart2: preview_image
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+
+
+
+
+

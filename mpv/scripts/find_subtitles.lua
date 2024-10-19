@@ -83,5 +83,5 @@ function find_subtitles()
     mp.commandv("rescan_external_files", "reselect")
 end
 
-mp.add_key_binding("Alt+a", "subtitles", find_subtitles)
+mp.add_key_binding("o", "subtitles", find_subtitles)
 -- mp.register_event("start-file", find_subtitles)

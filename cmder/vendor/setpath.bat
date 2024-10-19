@@ -31,6 +31,12 @@ SET PATH=^
 %    =%%HOME%\Bin\HandBrakeCLI;^
 %    =%%HOME%\Bin\MediaInfo_CLI;^
 %    =%%HOME%\Bin\PgsToStr;^
+%    =%%HOME%\Bin\erd;^
+%    =%%HOME%\Bin\pngquant;^
+%    =%%HOME%\Bin\oxipng;^
+%    =%%HOME%\Script\mdtable2csv;^
+%    =%%HOME%\Bin\csview;^
+%    =%%HOME%\Bin\svg2png\x64;^
 %    =%%HOME%\Bin\exiftool;^
 %    =%%HOME%\Bin\video-compare;^
 %    =%%HOME%\Bin\dedoc;^
@@ -41,24 +47,28 @@ SET PATH=^
 %    =%%HOME%\Bin\7z-extra\x64;^
 %    =%%HOME%\Bin\unrar\bin;^
 %    =%%HOME%\Bin\dictzip;^
+%    =%%HOME%\Bin\yoga;^
 %    =%%HOME%\Lib\cmake\bin;^
 %    =%%HOME%\Lib\go\bin;^
+%    =%%HOME%\Lib\love-11.4;^
 %    =%%HOME%\.pyenv\pyenv-win\bin;^
 %    =%%HOME%\.pyenv\pyenv-win\shims;^
 %    =%%HOME%\Bin\nvm;^
 %    =%%HOME%\go\bin;^
 %    =%%HOME%\Github\My_Setup\mpv;^
-%    =%%HOME%\Github\My_Shell\command;^
+%    =%%HOME%\Github\My_Shell\cmd;^
+%    =%%HOME%\Github\My_Shell\bat;^
 %    =%%PATH%
 
 rem Cache
+rem %    =%%HOME%\Lib\love-0.10.2;^
+rem %    =%%HOME%\Lib\love-11.3;^
 rem %    =%LuaJIT\src;^
 rem %    =%CUDNN\v8.6.0\bin;^
-rem %    =%MiKTeX\miktex\bin\x64;^
 
 rem Windows User variables
 rem (LIB)
-rem %PNPM_HOME%;%RBENV_ROOT%\rbenv\bin;%RBENV_ROOT%\shims;C:\Users\User\Lib\zlib\bin;C:\Users\User\Bin\gzip\bin;C:\Users\User\Bin\Git\usr\bin;C:\Users\User\Bin\Git\cmd;C:\Users\User\Bin\PowerShell;C:\Users\User\AppData\Local\Yarn\bin;C:\Users\User\.nvm\v20.17.0;C:\Users\User\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\User\AppData\Local\Programs\Python\Python310;C:\Users\User\Lib\jdk-21.0.4\bin;C:\Users\User\Lib\jdk-21.0.4\lib;C:\Users\User\Lib\gradle-8.5\bin;C:\Users\User\Lib\gradle-8.5\lib;C:\Users\User\Lib\zig;C:\Users\User\Lib\lua53\bin;C:\Users\User\Lib\lua53\lib;C:\Users\User\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin;C:\Users\User\.local\bin;C:\Users\User\.cargo\bin;C:\Users\User\Lib\;C:\Users\User\Lib\luajit\src;C:\Users\User\Lib\clang+llvm\bin;C:\Users\User\Lib\rime\dist\lib;C:\Users\User\Lib\strawberry-perl\c\bin;C:\Users\User\Lib\strawberry-perl\perl\bin;C:\Users\User\Lib\strawberry-perl\perl\site\bin;C:\Users\User\Opt\MiKTeX\texmfs\install\miktex\bin\x64
+rem %PNPM_HOME%;%RBENV_ROOT%\rbenv\bin;%RBENV_ROOT%\shims;C:\Users\User\Lib\zlib\bin;C:\Users\User\Bin\gzip\bin;C:\Users\User\Bin\Git\usr\bin;C:\Users\User\Bin\Git\cmd;C:\Users\User\Bin\PowerShell;C:\Users\User\AppData\Local\Yarn\bin;C:\Users\User\.nvm\v20.17.0;C:\Users\User\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\User\AppData\Local\Programs\Python\Python310;C:\Users\User\Lib\jdk-21.0.4\bin;C:\Users\User\Lib\jdk-21.0.4\lib;C:\Users\User\Lib\gradle-8.5\bin;C:\Users\User\Lib\gradle-8.5\lib;C:\Users\User\Lib\zig;C:\Users\User\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin;C:\Users\User\.local\bin;C:\Users\User\.cargo\bin;C:\Users\User\Lib\;C:\Users\User\Lib\luajit\src;C:\Users\User\Lib\clang+llvm\bin;C:\Users\User\Lib\rime\dist\lib;C:\Users\User\Lib\strawberry-perl\c\bin;C:\Users\User\Lib\strawberry-perl\perl\bin;C:\Users\User\Lib\strawberry-perl\perl\site\bin;C:\Users\User\Opt\MiKTeX\texmfs\install\miktex\bin\x64;C:\Users\User\Lib\lua51\bin
 rem (BIN)
 rem C:\Users\User\Bin\sed;C:\Users\User\Bin\pandoc;C:\Users\User\Bin\poppler\Library\bin;C:\Users\User\Bin\curl\bin;C:\Users\User\Bin\curl_x32\bin;C:\Users\User\Bin\yt-dlp;C:\Users\User\Lib\ffmpeg\bin;C:\Users\User\Lib\ImageMagick;C:\Users\User\Opt\mpv;C:\Users\User\Bin\PowerSession;C:\Users\User\Bin\rclone;C:\Program Files (x86)\MeCab\bin;C:\Users\User\Bin\glow;C:\Users\User\Bin\gh\bin;C:\Users\User\Lib\make-bin\bin;C:\Users\User\Lib\make-dep\bin;C:\Users\User\Bin\lolcate;C:\Users\User\Bin\fd;C:\Users\User\Bin\fzf;C:\Users\User\Bin\zoxide;C:\Users\User\Bin\wget\bin;C:\Users\User\Bin\wget-dep\bin;C:\Users\User\Bin\bat;C:\Users\User\Bin\jq;C:\Users\User\Bin\ripgrep;C:\Users\User\Bin\chafa;C:\Users\User\Bin\vimg;C:\Users\User\Bin\ES;C:\Users\User\Bin\ngrok
 rem (OPT)

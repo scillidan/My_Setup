@@ -1,0 +1,31 @@
+BundleFormat: 1
+Name: combo
+Description: 
+Author: 
+TitleMatch: 
+Patterns:
+- LLPart1: ki ^| > _.md && mkdirs _.md && trash _.md
+  LLPart2: make dirs
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: cook x $1-$2 | sd x1 "\55 $3" > _.md && mkdirs _.md && trash _.md
+  LLPart2: make dirs
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: curl -k https://raw.githubusercontent.com/scillidan/WALLPAP-ENG-resource/main/table.md | sd "\[\d{10}\]\(" "" | sd "(\)\|\S+subsc)" "|![](//img.shields.io/steam/subsc" | mdtable2csv | sd "//steamc" "https://steamc" | xsv select source,version,urlid | csview
+  LLPart2: wallpap-eng
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: curl -k --remote-name-all -o - https://raw.githubusercontent.com/scillidan/color/main/data/{chinese-traditional-colors.md,china-tradition-color-monokuro.md,zhongguose.md,china-tradition-color-320.md,nipponcolors.md} | mdtable2csv | xsv select hex,spelling,name | tidy-viewer -D -a -e | coloro | less -R
+  LLPart2: color
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: linkding --url "http://127.0.0.1:<port>" --token "<token>" bookmarks all -q $* | jq ".results[]" | ramda -c -o csv | xsv select id,tag_names,url,website_description | tidy-viewer -u 50
+  LLPart2: linkding
+  LLKey: 
+  LLShorthand: 
+  LLScript: 

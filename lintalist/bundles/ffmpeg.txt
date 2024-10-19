@@ -1,0 +1,56 @@
+BundleFormat: 1
+Name: ffmpeg
+Description: 
+Author: 
+TitleMatch: 
+Patterns:
+- LLPart1: ffmpeg -i ^| -c:a libmp3lame -q:a 8 _.mp3
+  LLPart2: m4a to mp3
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ffmpeg -i ^| -vn -c:a libmp3lame -b:a 224K -ac 2 _.mp3
+  LLPart2: m4a to mp3
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ffmpeg -framerate 1 -i $04d.png -c:v libx264 -r 30 -pix_fmt yuv420p _.mp4
+  LLPart2: image to video
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ffmpeg -framerate 30 -i $04d.png -c:v libx264 -pix_fmt yuv420p _.mp4
+  LLPart2: image to video
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ffmpeg -loop 1 -i ^|.jpg -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" -c:v libx264 -t 1 -pix_fmt yuv420p _.mp4
+  LLPart2: image to video
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ffmpeg -i ^|.gif -movflags faststart -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" _.mp4
+  LLPart2: gif to mp4
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ffmpeg -i ^|.mp4 -vframes 1 _poster.jpg
+  LLPart2: gif to mp4
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ffmpeg -i ^| -map 0:s:0 _.srt
+  LLPart2: export subtilte
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ffmpeg -i ^| -map 0:s:0 -c:s copy _.sup
+  LLPart2: export subtilte
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ffmpeg -i ^| -map 0 -c:v copy -c:a ac3 -b:a 256K -ac 2 -c:s copy _.mp4
+  LLPart2: to mp4
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
