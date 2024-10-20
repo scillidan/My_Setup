@@ -1,7 +1,0 @@
-<snippet>
-  <content><![CDATA[
-mklink "%%d\%SD%\\$2" "%MPV_SRC%\\$1\\$2"
-]]></content>
-  <tabTrigger>snsd</tabTrigger>
-  <description>SETUP ... mpv ... sd</description>
-</snippet>

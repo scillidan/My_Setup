@@ -1,8 +1,0 @@
-<snippet>
-  <content><![CDATA[
-rem copy "%MPV_SRC%\\$1\\$2" "%SSOD%\\$2"
-mklink "%%d\%SOD%\\$2" "%SSOD%\\$2"
-]]></content>
-  <tabTrigger>snsod</tabTrigger>
-  <description>SETUP ... mpv ... sod</description>
-</snippet>

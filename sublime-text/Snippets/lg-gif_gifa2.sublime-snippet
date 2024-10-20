@@ -2,16 +2,15 @@
   <content><![CDATA[
       <a class="gallery-item" 
         data-html="#$1" 
-        data-slide-name="$2$5" 
+        data-slide-name="" 
         data-video='{ "source": [ {"src": "media/$1.mp4", "type": "video/mp4"} ], "attributes": { "preload": false, "controls": false, "playsinline": true, "loop": true } }' 
-        data-sub-html="<h4>$2$4</h4>
-        <p>$6</p>"
+        data-sub-html=""
         data-poster="media/$1_poster.jpg">
         <img class="img-responsive" src="media/$1_poster.jpg" 
-          alt="&lt;p&gt;$2$3&lt;/p&gt;" />
+          alt="&lt;p&gt;&lt;/p&gt;" />
       </a>
-$7
+$2
 ]]></content>
-  <tabTrigger>gifa</tabTrigger>
-  <description></description>
+  <tabTrigger>gifa2</tabTrigger>
+  <description>lg-gif no data-sub-html</description>
 </snippet>

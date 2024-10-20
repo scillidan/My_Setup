@@ -3,5 +3,5 @@
 set "PATH=$1%PATH%"
 ]]></content>
   <tabTrigger>path</tabTrigger>
-  <description>set cmder path</description>
+  <description>cmder set path</description>
 </snippet>

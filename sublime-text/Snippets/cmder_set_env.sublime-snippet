@@ -3,5 +3,5 @@
 set "${1:env}=${2:path}%${1:env}%"
 ]]></content>
   <tabTrigger>env</tabTrigger>
-  <description>set cmder env</description>
+  <description>cmder set env</description>
 </snippet>

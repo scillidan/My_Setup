@@ -1,7 +1,0 @@
-<snippet>
-  <content><![CDATA[
-|$1|NC-$2|$3|[$4](//steamcommunity.com/sharedfiles/filedetails/?id=$4)|![](https://img.shields.io/steam/subscriptions/$4?style=flat-square&label=)|![](https://img.shields.io/steam/downloads/$4?style=flat-square&label=)|
-]]></content>
-  <tabTrigger>wallpapl</tabTrigger>
-  <description>wallpap-engine line</description>
-</snippet>

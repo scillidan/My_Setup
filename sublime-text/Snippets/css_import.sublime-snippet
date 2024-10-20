@@ -8,5 +8,5 @@ body {
 }
 ]]></content>
   <tabTrigger>import</tabTrigger>
-  <description>@import</description>
+  <description>css @import</description>
 </snippet>

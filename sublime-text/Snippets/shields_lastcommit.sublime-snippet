@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+[![](https://img.shields.io/github/last-commit/scillidan/$1/main?label=&style=flat-square)](https://github.com/scillidan/$1)
+]]></content>
+  <tabTrigger>cmt</tabTrigger>
+  <description>shields.io last-commit</description>
+</snippet>

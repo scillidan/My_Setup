@@ -43,7 +43,7 @@ _TOOLS = {
     '2win': lambda x: x.replace('/', '\\').replace('\\', '\\\\'),
     '2win2': lambda x: x.replace('/', '\\\\').replace('\\', '\\\\'),
     '2unix': lambda x: x.replace('\\\\', '/').replace('\\', '/'),
-    '2raw': lambda x: re.sub(r'https://github.com/([^/]+)/([^/]+)/blob/([^/]+)/(.+)', r'https://raw.githubusercontent.com/\1/\2/\3/\4', x),
+    '2raw': lambda x: re.sub(r'https://github.com/([^/]+)/([^/]+)/blob/([^/]+)/(.+)', r'https://raw.githubusercontent.com/\1/\2/\3/', x),
     '2gh': lambda x: re.sub(r'https://github.com/([^/]+)/([^/]+)(?:/.*)?', r'\1/\2', x),
     '2atomc': lambda x: re.sub(r'https://github.com/([^/]+)/([^/]+)(?:/.*)?', r'https://github.com/\1/\2/commits.atom', x),
     '2atomr': lambda x: re.sub(r'https://github.com/([^/]+)/([^/]+)(?:/.*)?', r'https://github.com/\1/\2/releases.atom', x),

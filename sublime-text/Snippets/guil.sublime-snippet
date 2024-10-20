@@ -1,7 +1,0 @@
-<snippet>
-  <content><![CDATA[
-| [$2$4](//github.com/$1/$2) | ![](https://img.shields.io/github/license/$1/$2?label=&style=flat-square) | [![](https://img.shields.io/github/last-commit/scillidan/$2/main?label=&style=flat-square)](//github.com/scillidan/$2) | [.md](_readme/$2$3.md) | ![](_media/$2$3.png) |
-]]></content>
-  <tabTrigger>guil</tabTrigger>
-  <description>gui line</description>
-</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+![](https://img.shields.io/github/license/$1?label=&style=flat-square)
+]]></content>
+  <tabTrigger>lic</tabTrigger>
+  <description>shields.io license</description>
+</snippet>

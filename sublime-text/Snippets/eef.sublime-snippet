@@ -1,7 +1,0 @@
-<snippet>
-  <content><![CDATA[
---8<-- "$1:$2"
-]]></content>
-  <tabTrigger>eef</tabTrigger>
-  <description>mkdocs snippet</description>
-</snippet>

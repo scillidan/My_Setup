@@ -85,3 +85,8 @@ Patterns:
   LLKey: 
   LLShorthand: 
   LLScript:
+- LLPart1: yoga image --resize 1920 ^| _.png
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript:

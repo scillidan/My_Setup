@@ -1,8 +1,0 @@
-<snippet>
-  <content><![CDATA[
-del "%$1_OPT\\$2"
-mklink "%$1_OPT\\$2" "%$1_SETUP\\$2"
-]]></content>
-  <tabTrigger>sndel</tabTrigger>
-  <description>My_Setup del ...</description>
-</snippet>

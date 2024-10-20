@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<!-- --8<-- [start:$1] -->
+$2
+<!-- --8<-- [end:$1] -->
+]]></content>
+  <tabTrigger>ee</tabTrigger>
+  <description>mkdocs snippet</description>
+</snippet>
