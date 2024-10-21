@@ -35,7 +35,7 @@ ocr.cls=false
 ocr.language=models/config_chinese.txt
 ocr.limit_side_len=960
 tbpu.parser=multi_para
-hotkey.screenshot=shift+alt+s
+hotkey.screenshot=shift+alt+1
 hotkey.paste=
 hotkey.reScreenshot=
 action.copy=true
@@ -45,7 +45,7 @@ other.simpleNotificationType=default
 [TabPageManager]
 showPageIndex=0
 openPageList=ScreenshotOCR/ScreenshotOCR.qml, QRCode/QRCode.qml, GlobalConfigsPage/GlobalConfigsPage.qml
-refresh=true
+refresh=false
 
 [QRCode]
 configs_advanced=false

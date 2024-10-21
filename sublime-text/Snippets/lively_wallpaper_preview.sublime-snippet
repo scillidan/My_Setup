@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+<img src="https://raw.githubusercontent.com/scillidan/asset/main/lively/$1.png" height="50px">
+]]></content>
+  <tabTrigger>llwp</tabTrigger>
+  <description>lively wallpaper preview</description>
+</snippet>
