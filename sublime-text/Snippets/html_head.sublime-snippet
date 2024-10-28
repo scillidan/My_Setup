@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<meta charset="UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="scillidan">
+<title></title>
+]]></content>
+  <tabTrigger>htmlh</tabTrigger>
+  <description>html head</description>
+</snippet>

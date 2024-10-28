@@ -50,6 +50,7 @@ SET PATH=^
 %    =%%HOME%\Bin\yoga;^
 %    =%%HOME%\Bin\boon;^
 %    =%%HOME%\Bin\love-build;^
+%    =%%HOME%\Bin\dufs;^
 %    =%%HOME%\Lib\cmake\bin;^
 %    =%%HOME%\Lib\go\bin;^
 %    =%%HOME%\Lib\love-11.4;^

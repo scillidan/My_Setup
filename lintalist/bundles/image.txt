@@ -114,3 +114,8 @@ Patterns:
   LLKey: 
   LLShorthand: 
   LLScript: 
+- LLPart1: yoga image ^| _.png2
+  LLPart2: yoga image --resize 1920 ^| _.png
+  LLKey: 
+  LLShorthand: 
+  LLScript: 

@@ -35,7 +35,7 @@ Patterns:
   LLShorthand: 
   LLScript: 
 - LLPart1: ass2srt ^|.ass
-  LLPart2: ass2srtq
+  LLPart2: ass2srt
   LLKey: 
   LLShorthand: 
   LLScript: 
@@ -46,6 +46,16 @@ Patterns:
   LLScript: 
 - LLPart1: dotnet PgsToSrt.dll --input ^|.sup --output _.srt --tesseractlanguage <language> --tesseractdata "C:\Users\User\Data\tessdata_fast"
   LLPart2: PgsToSrt
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: dotnet PgsToSrt.dll --input ^|.sup --output _.srt --tesseractlanguage <language> --tesseractdata "C:\Users\User\Data\tessdata_fast"
+  LLPart2: PgsToSrt
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: you-get -i -c "cookies.txt" ^|
+  LLPart2: you-get -c "cookies.txt" --format=dash-flv-AV1 --playlist ^|
   LLKey: 
   LLShorthand: 
   LLScript: 
