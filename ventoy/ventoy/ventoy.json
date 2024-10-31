@@ -1,0 +1,44 @@
+{
+    "theme":{
+        "file":[
+            "/ventoy/boo/theme.txt",
+            "/ventoy/purple-theme/theme.txt",
+            "/ventoy/purple-theme/theme_legacy.txt"
+        ],
+        "gfxmode": "1920x1080",
+        "fonts":[
+            "/ventoy/boo/ChalkDust-Regular-14.pf2",
+            "/ventoy/boo/Terminus-Regular-12.pf2",
+            "/ventoy/boo/Terminus-Regular-14.pf2",
+            "/ventoy/boo/Unifont-Regular-16.pf2"
+        ]
+    },
+    "menu_alias":[
+        {
+            "image": "/ISO/HBCD_PE_x64.iso",
+            "alias": "Hiren’s BootCD PE (v1.0.8, x64)"
+        },
+        {
+            "image": "/WinISO/windows10_x64_cn.iso",
+            "alias": "Windows 10, version 22H2 (updated April 2024, x64)"
+        }
+    ],
+    "menu_class":[
+        {
+            "key": "windows",
+            "class": "windows"
+        },
+        {
+            "key": "hbcd",
+            "class": "windows"
+        }
+    ],
+    "auto_install":[
+        {
+            "parent": "/WinISO",
+            "template":[
+                "/ventoy/revi/autounattend.xml"
+            ]
+        }
+    ]
+}

@@ -59,3 +59,8 @@ Patterns:
   LLKey: 
   LLShorthand: 
   LLScript: 
+- LLPart1: rapid_videocr -vsf "C:\Users\User\Opt\VideoSubFinder\VideoSubFinderWXW.exe" -video_dir ^|
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 

@@ -5,7 +5,6 @@ set "HOME=C:\Users\User"
 set "SMARTZIP_OPT=%HOME%\Opt\SmartZip"
 set "SMARTZIP_SETUP=%HOME%\Github\My_Setup\smartzip"
 
-
 del "%SMARTZIP_OPT%\SmartZip.ini"
 del "%SMARTZIP_OPT%\light.ico"
 del "%SMARTZIP_OPT%\dark.ico"
