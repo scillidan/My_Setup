@@ -107,6 +107,7 @@ require("keepcursor").setup({
   enabled_on_start_v = "none",
   enabled_on_start_h = "none"
 })
+require("plugin.nvim-treesitter")
 require("truncateline").setup({
   enabled_on_start = true,
   truncate_str = "...",
@@ -324,33 +325,33 @@ require("telescope-tabs")
 --     ['<C-E>'] = require('cheatsheet.telescope.actions').edit_user_cheatsheet,
 --   }
 -- })
-require("nvim-devdocs").setup({
-  dir_path = vim.fn.stdpath("data") .. "/devdocs",
-  telescope = {},
-  filetypes = {
-   scss = "sass",
-   javascript = { "node", "javascript" }
-  },
-  float_win = {
-    relative = "editor",
-    height = 25,
-    width = 100,
-    border = "rounded",
-  },
-  wrap = false,
-  previewer_cmd = nil,
-  cmd_args = {},
-  cmd_ignore = {},
-  picker_cmd = false,
-  picker_cmd_args = {},
-  mappings = {
-    open_in_browser = ""
-  },
-  ensure_installed = {},
-  after_open = function(bufnr)
-    vim.api.nvim_buf_set_keymap(bufnr, 'n', '<Esc>', ':close<CR>', {})
-  end
-})
+-- require("nvim-devdocs").setup({
+--   dir_path = vim.fn.stdpath("data") .. "/devdocs",
+--   telescope = {},
+--   filetypes = {
+--    scss = "sass",
+--    javascript = { "node", "javascript" }
+--   },
+--   float_win = {
+--     relative = "editor",
+--     height = 25,
+--     width = 100,
+--     border = "rounded",
+--   },
+--   wrap = false,
+--   previewer_cmd = nil,
+--   cmd_args = {},
+--   cmd_ignore = {},
+--   picker_cmd = false,
+--   picker_cmd_args = {},
+--   mappings = {
+--     open_in_browser = ""
+--   },
+--   ensure_installed = {},
+--   after_open = function(bufnr)
+--     vim.api.nvim_buf_set_keymap(bufnr, 'n', '<Esc>', ':close<CR>', {})
+--   end
+-- })
 require("flow").setup{
     output = {
         buffer = true,
@@ -395,7 +396,7 @@ require("dap-python").setup(
 -- require("dapui").setup()
 require("avante").setup{
   provider = "ollama",
-  auto_suggestions_provider = "starcoder2:3b",
+  auto_suggestions_provider = "ollama",
   vendors = {
     -- openai = {
     --   endpoint = "https://api.chatanywhere.tech",
