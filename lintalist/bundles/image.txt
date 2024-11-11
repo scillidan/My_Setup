@@ -119,3 +119,13 @@ Patterns:
   LLKey: 
   LLShorthand: 
   LLScript: 
+- LLPart1: gifski -o _.gif ^|
+  LLPart2: gifski --width 600 --height 600 --fps 10 -o _.gif ^|
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ffmpeg -i ^| -f yuv4mpegpipe - | gifski -o "crushed.gif" -
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 

@@ -1,10 +1,10 @@
 [source.crates-io]
 # registry = "https://github.com/rust-lang/crates.io-index"
-replace-with = 'sjtu'
+replace-with = 'ustc'
 
 [http]
 check-revoke = false
-# proxy = "http://127.0.0.1:7897"
+# proxy = "http://127.0.0.1:<port>"
 
 [net]
 git-fetch-with-cli = true
@@ -13,10 +13,6 @@ git-fetch-with-cli = true
 [source.ustc]
 registry = "https://mirrors.ustc.edu.cn/crates.io-index"
 # registry = "git://mirrors.ustc.edu.cn/crates.io-index"
-
-# 上海交通大学
-[source.sjtu]
-registry = "https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index/"
 
 # # 清华大学
 # [source.tuna]
