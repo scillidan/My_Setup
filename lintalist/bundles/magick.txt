@@ -79,3 +79,8 @@ Patterns:
   LLKey: 
   LLShorthand: 
   LLScript: 
+- LLPart1: magick convert -size ^| _temp.jpg
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 

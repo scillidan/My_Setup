@@ -23,7 +23,7 @@
     ],
     "close_windows_when_empty": false,
     "auto_complete_selector": "text, comment, string",
-    "font_size": 9,
+    "font_size": 8,
     "tab_size": 2,
     /*"translate_tabs_to_spaces": true,*/
     /*"detect_indentation": false*/

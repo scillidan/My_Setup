@@ -49,6 +49,7 @@ SET PATH=^
 %    =%%HOME%\Bin\love-build;^
 %    =%%HOME%\Bin\dufs;^
 %    =%%HOME%\Bin\dart-sass;^
+%    =%%HOME%\Bin\gmic;^
 %    =%%HOME%\Lib\cmake\bin;^
 %    =%%HOME%\Lib\go\bin;^
 %    =%%HOME%\Lib\love-11.4;^
