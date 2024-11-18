@@ -45,11 +45,11 @@ other.simpleNotificationType=default
 [TabPageManager]
 showPageIndex=0
 openPageList=ScreenshotOCR/ScreenshotOCR.qml, QRCode/QRCode.qml, GlobalConfigsPage/GlobalConfigsPage.qml
-refresh=false
+refresh=true
 
 [QRCode]
 configs_advanced=false
-hotkey.screenshot=shift+ctrl+alt+s
+hotkey.screenshot=shift+ctrl+alt+1
 hotkey.paste=
 preprocessing.median_filter_size=0
 preprocessing.sharpness_factor=0

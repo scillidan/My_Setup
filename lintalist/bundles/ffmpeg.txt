@@ -4,6 +4,11 @@ Description:
 Author: 
 TitleMatch: 
 Patterns:
+- LLPart1: ffmpeg -i ^| -map 0:a:0 -c:a copy _.mp3
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
 - LLPart1: ffmpeg -i ^| -c:a libmp3lame -q:a 8 _.mp3
   LLPart2: m4a to mp3
   LLKey: 
@@ -51,6 +56,11 @@ Patterns:
   LLScript: 
 - LLPart1: ffmpeg -i ^| -map 0 -c:v copy -c:a ac3 -b:a 256K -ac 2 -c:s copy _.mp4
   LLPart2: to mp4
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ffmpeg -i ^| -map_metadata -1 -c:a libvorbis -b:a 64k -compression_level 10 -vn _.ogg
+  LLPart2: 
   LLKey: 
   LLShorthand: 
   LLScript: 
