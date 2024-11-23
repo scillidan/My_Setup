@@ -79,6 +79,7 @@ xpi=pipx install $*
 xpu=pipx uninstall $*
 pcp=pip cache purge
 pva=venv\Scripts\activate.bat
+pixy=pip install -e . --index-url https://pypi.org/simple
 ni=npm18 install $* -g
 nu=npm18 uninstall $* -g
 ns=npms search $*
@@ -97,6 +98,8 @@ gs=gofind $*
 gs2=gopicker $*
 ds=gsudo docker search $*
 dcu=gsudo docker compose up -d
+cuda11=set "CUDA_PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8"
+cuda12=set "CUDA_PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1"
 
 dga=doggo A $* @1.1.1.1
 dgg=doggo A $* @8.8.8.8

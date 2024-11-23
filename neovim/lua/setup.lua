@@ -25,22 +25,20 @@ require("tokyonight").setup({
 require("lualine").setup{
   options = {
     theme = "tokyonight",
-    component_separators = { left = "/", right = "" },
+    component_separators = { left = "|", right = "|" },
     section_separators = { left = "", right = "" }
 },
   sections = {
     lualine_a = {'mode'},
     lualine_b = {'branch', 'diff', 'diagnostics'},
-    lualine_c = {require("auto-session.lib").current_session_name},
+    lualine_c = {require("auto-session.lib").current_session_name or "No Session"},
     lualine_x = {
       'encoding', 'fileformat', 'filetype',
       {
         require('keepcursor').KeepCursorStatus,
-        color = { fg = 'Normal' },
+        color = { fg = '#fff' },
         cond = function ()
-          if _G.KeepCursorAt ~= nil then
-            return true
-          end
+          return _G.KeepCursorAt ~= nil
         end
       }
     },

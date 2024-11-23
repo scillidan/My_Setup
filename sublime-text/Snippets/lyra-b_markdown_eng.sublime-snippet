@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+```
+ISBN13: 
+Title: 
+Subtitle: 
+Authors: 
+Published: 
+```
+]]></content>
+  <tabTrigger>lyrabe</tabTrigger>
+  <description>lyra-b markdown eng</description>
+</snippet>

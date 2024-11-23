@@ -155,6 +155,8 @@ for %%d in (%CONFIG_VIDEO%) do (
     mklink "%%d\%SOD%\afs.conf" "%SSOD%\afs.conf"
     mklink "%%d\%SD%\mpv-sub_not_forced_not_sdh.lua" "%MPV_SRC%\mpv-scripts@pzim-devdata\mpv-sub_not_forced_not_sdh.lua"
     mklink "%%d\%SD%\restore-subtitles.lua" "%MPV_SRC%\mpv-config@zenwarr\scripts\restore-subtitles.lua"
+    mklink "%%d\%SD%\dualsubtitles.lua" "%MPV_SRC%\mpv-dualsubtitles\dualsubtitles.lua"
+    mklink "%%d\%SOD%\dualsubtitles.conf" "%SSOD%\dualsubtitles.conf"
     mklink "%%d\%SD%\sub_export.lua" "%MPV_SRC%\mpv-scripts@dyphire\sub_export.lua"
     rem copy "%MPV_SRC%\find_subtitles\find_subtitles.lua" "%%d\%SSD%\find_subtitles.lua"
     mklink "%%d\%SD%\find_subtitles.lua" "%SSD%\find_subtitles.lua"

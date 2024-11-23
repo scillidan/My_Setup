@@ -22,5 +22,3 @@ require("neovide")
 require("install")
 require("setup")
 require("keymap")
-
-vim.api.nvim_command("colorscheme tokyonight-night")
