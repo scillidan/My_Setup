@@ -35,7 +35,7 @@ vim.api.nvim_set_keymap('n', '<leader>rl', ':Telescope repo list<CR>', { noremap
 vim.api.nvim_set_keymap('n', '<leader>fd', '<cmd>Telescope dir live_grep<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>pd', '<cmd>Telescope dir find_files<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>br', ':Telescope file_browser<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<leader>mf', ':Telescope media_files<CR>', { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap('n', '<leader>mf', ':Telescope media_files<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>mj', ':Telescope emoji<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<Leader>im', ':Telescope import<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>es', ':Telescope everything<CR>', { noremap = true, silent = true })

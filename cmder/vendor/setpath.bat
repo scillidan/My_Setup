@@ -52,6 +52,7 @@ SET PATH=^
 %    =%%HOME%\Bin\gmic;^
 %    =%%HOME%\Bin\biliupR;^
 %    =%%HOME%\Bin\webify;^
+%    =%%HOME%\Bin\dolt\bin;^
 %    =%%HOME%\Opt\Calibre Portable\Calibre;^
 %    =%%HOME%\Lib\lua-5.4.7;^
 %    =%%HOME%\Lib\cmake\bin;^

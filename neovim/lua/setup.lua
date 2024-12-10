@@ -22,6 +22,7 @@ require("img-clip").setup({
 require("tokyonight").setup({
   style = "night"
 })
+vim.cmd("colorscheme tokyonight")
 require("lualine").setup{
   options = {
     theme = "tokyonight",
@@ -301,7 +302,7 @@ require("telescope").load_extension("frecency")
 require("telescope").load_extension("repo")
 require("telescope").load_extension("dir")
 require("telescope").load_extension("file_browser")
-require("telescope").load_extension("media_files")
+-- require("telescope").load_extension("media_files")
 require("telescope").load_extension("everything")
 require("telescope").load_extension("emoji")
 require("telescope").load_extension("import")
@@ -392,43 +393,6 @@ require("dap-python").setup(
   "C:/Users/User/.virtualenvs/debugpy/bin/python"
 )
 -- require("dapui").setup()
-require("avante").setup{
-  provider = "ollama",
-  auto_suggestions_provider = "ollama",
-  vendors = {
-    -- openai = {
-    --   endpoint = "https://api.chatanywhere.tech",
-    --   model = "gpt-4o-mini",
-    --   timeout = 30000,
-    --   temperature = 0,
-    --   max_tokens = 4096,
-    --   ["local"] = false,
-    -- },
-    ollama = {
-      ["local"] = true,
-      endpoint = "127.0.0.1:11434/v1",
-      model = "codellama",
-      parse_curl_args = function(opts, code_opts)
-        return {
-          url = opts.endpoint .. "/chat/completions",
-          headers = {
-            ["Accept"] = "application/json",
-            ["Content-Type"] = "application/json",
-          },
-          body = {
-            model = opts.model,
-            messages = require("avante.providers").copilot.parse_message(code_opts),
-            max_tokens = 2048,
-            stream = true,
-          },
-        }
-      end,
-      parse_response_data = function(data_stream, event_state, opts)
-        require("avante.providers").openai.parse_response(data_stream, event_state, opts)
-      end,
-    }
-  }
-}
 require("remember")
 require("tabout").setup{
   tabkey = '<Tab>',

@@ -88,7 +88,7 @@ require("lazy").setup({
   { "cljoly/telescope-repo.nvim" },
   { "princejoogie/dir-telescope.nvim" },
   { "nvim-telescope/telescope-file-browser.nvim" },
-  { "scillidan/telescope-media-files.nvim" },
+  -- { "scillidan/telescope-media-files.nvim" },
   { "Verf/telescope-everything.nvim" },
   { "xiyaowong/telescope-emoji.nvim" },
   { "piersolenski/telescope-import.nvim" },
@@ -103,9 +103,6 @@ require("lazy").setup({
   { "mfussenegger/nvim-dap-python" },
   { "theHamsta/nvim-dap-virtual-text" },
 	{ "rcarriga/nvim-dap-ui" },
-  { "yetone/avante.nvim", event = "VeryLazy", lazy = false, version = false,
-    build = "powershell -ExecutionPolicy Bypass -File Build.ps1 -BuildFromSource false"
-  },
 	{ "rmagatti/auto-session" },
   { "vladdoster/remember.nvim" },
   { "Pocco81/auto-save.nvim" },
