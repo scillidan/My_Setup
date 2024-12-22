@@ -16,7 +16,7 @@ window.closeWin2Hide=true
 window.hideTrayIcon=false
 window.simpleNotificationType=inside
 window.geometry="398,637,800,500"
-window.messageMemory=@Variant(\0\0\0\x7f\0\0\0\tQJSValue\0\0\0\0\0\0\0\0\t\0\0\0\0)
+window.messageMemory=@Variant(\0\0\0\x7f\0\0\0\tQJSValue\0\0\0\0\0\0\0\0\t\0\0\0\x1\0\0\0\n\0\0\0 \0g\0l\0o\0\x62\0\x61\0l\0\x43\0o\0n\0\x66\0i\0g\0s\0K\0\x65\0y)
 window.doubleLayout=@Variant(\0\0\0\x7f\0\0\0\tQJSValue\0\0\0\0\0\0\0\0\b\0\0\0\0)
 screenshot.hideWindow=true
 screenshot.hideWindowTime=0.2
@@ -45,7 +45,7 @@ other.simpleNotificationType=default
 [TabPageManager]
 showPageIndex=0
 openPageList=ScreenshotOCR/ScreenshotOCR.qml, QRCode/QRCode.qml, GlobalConfigsPage/GlobalConfigsPage.qml
-refresh=false
+refresh=true
 
 [QRCode]
 configs_advanced=false
