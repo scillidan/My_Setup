@@ -29,6 +29,11 @@ Patterns:
   LLKey: 
   LLShorthand: 
   LLScript: 
+- LLPart1: gifsicle --lossy=80 -k 128 -O2 -Okeep-empty ^| -o _opt.gif
+  LLPart2: 
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
 - LLPart1: video-to-ascii -f ^| --strategy ascii-color
   LLPart2: video-to-ascii
   LLKey: 
@@ -96,6 +101,11 @@ Patterns:
   LLScript: 
 - LLPart1: silicon --from-clipboard --language "Text" --font "'MonaspiceNe NFP + Sarasa Gothic SC + WFM Sans SC'=16" --no-window-controls --pad-horiz 0 --pad-vert 0 --background "#fffff8" --tab-width 2 --line-offset 0 --line-pad 4 --output _.png
   LLPart2: silicon text
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: agg --theme 1F1F28,FFFFFF,1F1F28,D55FFF,A6E22E,F4BF75,66D9EF,AE81FF,A1EFE4,F8F8F2,75715E,D55FFF,A6E22E,F4BF75,66D9EF,AE81FF,A1EFE4,F9F8F5 --speed 1.5 --font-family "JetBrainsMono Nerd Font Mono" --font-size 14 --fps-cap 30 ^| _.gif
+  LLPart2: 
   LLKey: 
   LLShorthand: 
   LLScript: 

@@ -1,6 +1,6 @@
 matches:
   - trigger: ":what"
-    replace: "What is $|$? Using metaphors and rhetoric helps me understand."
+    replace: "What is $|$? Using metaphors and rhetoric helps mee understand."
   - trigger: ":gc"
     replace: "git clone -depth=1 "
     passive_only: true

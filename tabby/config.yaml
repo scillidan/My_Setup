@@ -195,7 +195,7 @@ terminal:
       - '#b294bb'
       - '#8abeb7'
       - '#ffffff'
-  font: 终端更纱黑体-简 Nerd
+  font: Sarasa Term SC Nerd Font
   cursor: beam
   customColorSchemes: []
   hideTabIndex: true
