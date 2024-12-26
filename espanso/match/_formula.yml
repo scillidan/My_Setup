@@ -1,0 +1,4 @@
+matches:
+  - trigger: ":lwr"
+    replace: "LOWER(REPLACE({$|$}, '' ', '_'))"
+    passive_only: true

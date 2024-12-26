@@ -59,6 +59,7 @@ SET PATH=^
 %    =%%HOME%\Lib\cmake\bin;^
 %    =%%HOME%\Lib\go\bin;^
 %    =%%HOME%\Lib\love-11.4;^
+%    =%%HOME%\Lib\Keypirinha-SDK\cmd;^
 %    =%%HOME%\miniconda3\Scripts;^
 %    =%%HOME%\Script\mdtable2csv;^
 %    =%%HOME%\Github\My_Setup\_rc\cargo\tmp\release\deps;^

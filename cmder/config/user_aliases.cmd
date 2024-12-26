@@ -58,7 +58,7 @@ e=explorer $CD$\$*
 d="C:\Program Files\GPSoftware\Directory Opus\dopus.exe" "%CD%\$*"
 open=open-cli $*
 
-gc=git clone --depth=1 $*
+gc=git clone --depth 1 $*
 ghc=gh repo clone $*
 xgc=git clone https://ghproxy.com/$*
 gsa=git submodule add -f $*
@@ -79,6 +79,8 @@ pi39=py39 -m pip install $*
 pu39=py39 -m pip uninstall $*
 pi310=py310 -m pip install $*
 pu310=py310 -m pip uninstall $*
+ui=uv pip install $* --system
+uu=uv pip uninstall $*
 xpi=pipx install $*
 xpu=pipx uninstall $*
 pcp=pip cache purge

@@ -14,10 +14,6 @@ git-fetch-with-cli = true
 registry = "https://mirrors.ustc.edu.cn/crates.io-index"
 # registry = "git://mirrors.ustc.edu.cn/crates.io-index"
 
-# # 清华大学
-# [source.tuna]
-# registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
-
 # rustcc社区
 [source.rustcc]
 registry = "https://code.aliyun.com/rustcc/crates.io-index.git"

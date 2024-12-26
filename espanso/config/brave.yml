@@ -1,3 +1,6 @@
 filter_exec: "brave.exe"
 
 inject_delay: 100
+
+includes:
+  - "../match/_formula.yml"
