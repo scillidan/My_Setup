@@ -1,6 +1,6 @@
 127.0.0.1 localhost
 # 127.0.0.1 0.0.0.0
-140.82.113.3 github.com # git
+140.82.112.3 github.com # git
 185.199.108.133 githubusercontent.com
 18.154.227.7 huggingface.co
 104.16.0.35 npmjs.org                  # registry
