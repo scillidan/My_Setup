@@ -1,0 +1,221 @@
+{
+  "auto": {
+    "cleanup": {
+      "days": 3,
+      "played": false,
+      "unfinished": true,
+      "unplayed": false
+    },
+    "retries": 3,
+    "update": {
+      "enabled": false,
+      "frequency": 0
+    }
+  },
+  "check_connection": false,
+  "device_sync": {
+    "after_sync": {
+      "delete_episodes": false,
+      "mark_episodes_played": false,
+      "sync_disks": false
+    },
+    "compare_episode_filesize": true,
+    "custom_sync_name": "{episode.sortdate}_{episode.title}",
+    "custom_sync_name_enabled": false,
+    "delete_deleted_episodes": false,
+    "delete_played_episodes": false,
+    "device_folder": "/media",
+    "device_type": "none",
+    "max_filename_length": 120,
+    "one_folder_per_podcast": true,
+    "playlists": {
+      "create": false,
+      "extension": "m3u",
+      "folder": "Playlists",
+      "two_way_sync": false,
+      "use_absolute_path": true
+    },
+    "skip_played_episodes": true
+  },
+  "downloads": {
+    "chronological_order": true
+  },
+  "extensions": {
+    "audio_converter": {
+      "context_menu": true,
+      "use_ogg": false,
+      "use_opus": false
+    },
+    "enabled": [
+      "tagging",
+      "rename_download",
+      "rm_ogg_cover",
+      "youtube-dl",
+      "concatenate_videos",
+      "video_converter",
+      "audio_converter",
+      "episode_website_context_menu"
+    ],
+    "enqueue_in_mediaplayer": {
+      "default_player": "",
+      "enqueue_after_download": false
+    },
+    "rename_download": {
+      "add_podcast_title": false,
+      "add_sortdate": false,
+      "sortdate_after_podcast_title": false
+    },
+    "rm_ogg_cover": {
+      "context_menu": true
+    },
+    "tagging": {
+      "always_remove_tags": false,
+      "auto_embed_coverart": false,
+      "genre_tag": "Podcast",
+      "modify_tags": true,
+      "remove_before_modify": false,
+      "set_artist_to_album": false,
+      "set_version": 4,
+      "strip_album_from_title": true
+    },
+    "video_converter": {
+      "context_menu": true,
+      "output_format": "mp4"
+    },
+    "youtube-dl": {
+      "embed_subtitles": true,
+      "manage_channel": true,
+      "manage_downloads": true
+    }
+  },
+  "limit": {
+    "bandwidth": {
+      "enabled": false,
+      "kbps": 500.0
+    },
+    "downloads": {
+      "concurrent": 1,
+      "concurrent_max": 16,
+      "enabled": true
+    },
+    "episodes": 1000
+  },
+  "mygpo": {
+    "device": {
+      "caption": "i7-14700KF",
+      "type": "desktop",
+      "uid": "i7-14700KF"
+    },
+    "enabled": false,
+    "password": "Clisyoann-1221",
+    "server": "gpodder.net",
+    "username": "scillidan"
+  },
+  "player": {
+    "audio": "mpv --config-dir=\"C:\\Users\\User\\Github\\My_Setup\\mpv\\_config_dir_music\" --idle",
+    "video": "mpv --config-dir=\"C:\\Users\\User\\Github\\My_Setup\\mpv\\_config_dir_stream\" --idle"
+  },
+  "software_update": {
+    "check_on_startup": true,
+    "interval": 5,
+    "last_check": 1732962127
+  },
+  "ui": {
+    "cli": {
+      "colors": true
+    },
+    "gtk": {
+      "download_list": {
+        "remove_finished": true
+      },
+      "episode_list": {
+        "always_show_new": true,
+        "columns": 6,
+        "ctrl_click_to_sort": false,
+        "descriptions": true,
+        "right_align_released_column": false,
+        "show_released_time": false,
+        "trim_title_prefix": true,
+        "view_mode": 1
+      },
+      "find_as_you_type": true,
+      "html_shownotes": true,
+      "live_search_delay": 200,
+      "new_episodes": "show",
+      "only_added_are_new": false,
+      "podcast_list": {
+        "all_episodes": true,
+        "hide_empty": false,
+        "sections": true,
+        "view_mode": 1
+      },
+      "search_always_visible": false,
+      "state": {
+        "channel_editor": {
+          "height": -1,
+          "maximized": false,
+          "width": -1,
+          "x": -1,
+          "y": -1
+        },
+        "config_editor": {
+          "height": -1,
+          "maximized": false,
+          "width": -1,
+          "x": -1,
+          "y": -1
+        },
+        "episode_selector": {
+          "height": 400,
+          "maximized": false,
+          "width": 600,
+          "x": -1,
+          "y": -1
+        },
+        "episode_window": {
+          "height": 400,
+          "maximized": false,
+          "width": 500,
+          "x": -1,
+          "y": -1
+        },
+        "export_to_local_folder": {
+          "height": 400,
+          "maximized": false,
+          "width": 500,
+          "x": -1,
+          "y": -1
+        },
+        "main_window": {
+          "episode_column_order": [],
+          "episode_column_sort_id": 12,
+          "episode_column_sort_order": false,
+          "episode_list_size": 752,
+          "height": 1021,
+          "maximized": false,
+          "paned_position": 200,
+          "width": 1237,
+          "x": 307,
+          "y": 342
+        },
+        "preferences": {
+          "height": 340,
+          "maximized": false,
+          "width": 663,
+          "x": 755,
+          "y": 875
+        }
+      },
+      "toolbar": false
+    }
+  },
+  "vimeo": {
+    "fileformat": "1080p"
+  },
+  "youtube": {
+    "preferred_fmt_id": 46,
+    "preferred_fmt_ids": [],
+    "preferred_hls_fmt_id": 96,
+    "preferred_hls_fmt_ids": []
+  }
+}

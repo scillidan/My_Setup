@@ -7,8 +7,7 @@ rem Close lintalist.exe first
 
 set "HOME=C:\Users\User"
 
-set "AUTOHOTKEY_SRC=%HOME%\Source\autohotkey"
-set "LINTALIST_OPT=%AUTOHOTKEY_SRC%\lintalist"
+set "LINTALIST_OPT=%HOME%\Opt\lintalist"
 set "LINTALIST_SETUP=%HOME%\Github\My_Setup\lintalist"
 set "LINTALIST_SRC=%HOME%\Source\lintalist"
 

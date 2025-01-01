@@ -14,18 +14,3 @@
 13.32.151.28 download.docker.com
 202.120.2.119 sjtu.edu.cn              # mirror
 151.101.1.229 cdn.jsdelivr.net
-0.0.0.1 tencentcloudapi.com            # api
-184.31.138.32 api.steampowered.com
-104.21.59.58 devdocs.io # opt
-185.199.108.153 jellyfin.org
-68.183.204.194 repo.jellyfin.org
-128.199.73.36 sgp1.mirror.jellyfin.org
-40.71.11.169 outlook.office365.com
-23.0.18.123 steamcommunity.com         # steam
-23.1.198.56 steampowered.com
-# 127.0.0.1	lm.licenses.adobe.com      # block
-# 127.0.0.1	na1r.services.adobe.com
-# 127.0.0.1	hlrcv.stage.adobe.com
-# 127.0.0.1	practivate.adobe.com
-# 127.0.0.1	activate.adobe.com
-## 
