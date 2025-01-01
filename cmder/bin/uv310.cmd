@@ -1,0 +1,1 @@
+C:\Users\User\Bin\uv\uv.exe venv --python cpython-3.10.11-windows-x86_64-none && .venv\Scripts\activate.bat

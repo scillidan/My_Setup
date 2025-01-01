@@ -1,0 +1,10 @@
+matches:
+  - trigger: ":gc"
+    replace: "git clone --depth=1 "
+    passive_only: true
+  - trigger: ":pv"
+    replace: "python.exe -m venv venv\nvenv\\Scripts\\activate.bat"
+    passive_only: true
+  - trigger: ":uv"
+    replace: "uv.exe venv --python cpython-3.10.11-windows-x86_64-none && .venv\\Scripts\\activate.bat"
+    passive_only: true

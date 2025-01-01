@@ -1,11 +1,4 @@
 matches:
-  - trigger: ":what"
-    replace: "What is $|$? Using metaphors and rhetoric helps mee understand."
-  - trigger: ":gc"
-    replace: "git clone -depth=1 "
-    passive_only: true
-  - trigger: ":pv"
-    replace: "python.exe -m venv venv\nvenv\\Scripts\\activate.bat"
   - regex: ":hi\\((?P<person>.*)\\)"
     replace: "Hi {{person}}!"
   # - regex: "=sum\\((?P<num1>.*?),(?P<num2>.*?)\\)"
@@ -15,3 +8,7 @@ matches:
   #       type: shell
   #       params:
   #         cmd: "expr $ESPANSO_NUM1 + $ESPANSO_NUM2"
+  - trigger: ":what"
+    replace: "What is $|$? Using metaphors and rhetoric helps me understand."
+  - trigger: ":note"
+    replace: "https://github.com/scillidan/My_Note/blob/main/$|$.md#"

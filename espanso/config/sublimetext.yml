@@ -2,3 +2,4 @@ filter_title: "Sublime Text"
 
 includes:
   - "../match/_code.yml"
+  - "../match/_acronym.yml"
