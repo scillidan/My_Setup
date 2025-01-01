@@ -1,4 +1,5 @@
-"===[ Setting up Wim ]==="
+"===TBD==="
+
 function! VimplugInstaller()
   let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
   if empty(glob(data_dir . '/autoload/plug.vim'))

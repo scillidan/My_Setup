@@ -11,9 +11,9 @@ rmdir /S /Q "%VIM_HOME%\autoload"
 mkdir "%VIM_HOME%\autoload"
 
 del "%HOME%\.vimrc"
-del "%HOME%\.gvimrc"
+rem del "%HOME%\.gvimrc"
 mklink "%HOME%\.vimrc" "%VIM_SETUP%\vimrc"
 mklink "%VIM_HOME%\autoload\plug.vim" "%VIM_SRC%\vim-plug\plug.vim"
-mklink "%HOME%\.gvimrc" "%VIM_SETUP%\gvimrc"
+rem mklink "%HOME%\.gvimrc" "%VIM_SETUP%\gvimrc"
 
 pause

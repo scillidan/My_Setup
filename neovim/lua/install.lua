@@ -54,10 +54,6 @@ require("lazy").setup({
         strategy = require("ts-rainbow").strategy.global,
       }
     end,
-    ensure_installed = { "html", "lua" },
-    highlight = {
-      enable = true,
-    }
   },
   { "williamboman/mason.nvim" },
   { "williamboman/mason-lspconfig.nvim" },
@@ -96,7 +92,7 @@ require("lazy").setup({
   { "nvim-telescope/telescope-github.nvim" },
   -- { "sudormrfbin/cheatsheet.nvim" },
   -- { "warpaint9299/nvim-devdocs" },
-  { "arjunmahishi/flow.nvim" },
+  -- { "arjunmahishi/flow.nvim" },
   { "akinsho/toggleterm.nvim", version = "*", config = true },
   { "ravenxrz/DAPInstall.nvim" },
   { "mfussenegger/nvim-dap" },

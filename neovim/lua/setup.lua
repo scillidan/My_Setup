@@ -1,6 +1,6 @@
 require("auto-session").setup({
   auto_session_suppress_dirs = {
-    "C:/Users/User/"
+    "C:/Users/User"
   }
 })
 require("legendary").setup({
@@ -351,34 +351,34 @@ require("telescope-tabs")
 --     vim.api.nvim_buf_set_keymap(bufnr, 'n', '<Esc>', ':close<CR>', {})
 --   end
 -- })
-require("flow").setup{
-    output = {
-        buffer = true,
-        size = 80,
-        focused = true,
-        modifiable = false,
-        -- window_override = {
-        --   border = 'double',
-        --   title = 'Output',
-        --   title_pos = 'center',
-        --   style = 'minimal',
-        --   ...
-        -- }
-    },
-    filetype_cmd_map = {
-        python = "python <<-EOF\n%s\nEOF",
-    },
-    sql_configs = require('flow.util').read_sql_config('C:/Users/User/Data/neovim/.db_config.json'),
-    custom_cmd_dir = "C:/Users/User/Data/neovim/.flow_cmds"
-}
-require('flow.vars').add_vars({
-    str = "test-val-2",
-    num = 3,
-    bool = true,
-    var_with_func = function()
-        return "test-val"
-    end
-})
+-- require("flow").setup{
+--     output = {
+--         buffer = true,
+--         size = 80,
+--         focused = true,
+--         modifiable = false,
+--         -- window_override = {
+--         --   border = 'double',
+--         --   title = 'Output',
+--         --   title_pos = 'center',
+--         --   style = 'minimal',
+--         --   ...
+--         -- }
+--     },
+--     filetype_cmd_map = {
+--         python = "python <<-EOF\n%s\nEOF",
+--     },
+--     sql_configs = require('flow.util').read_sql_config('C:/Users/User/Data/neovim/.db_config.json'),
+--     custom_cmd_dir = "C:/Users/User/Data/neovim/.flow_cmds"
+-- }
+-- require('flow.vars').add_vars({
+--     str = "test-val-2",
+--     num = 3,
+--     bool = true,
+--     var_with_func = function()
+--         return "test-val"
+--     end
+-- })
 require("toggleterm").setup({
   size = 6
 })
