@@ -106,7 +106,8 @@ require("keepcursor").setup({
   enabled_on_start_v = "none",
   enabled_on_start_h = "none"
 })
-require("plugin.nvim-treesitter")
+require("colorizer").setup()
+-- require("plugin.nvim-treesitter")
 require("truncateline").setup({
   enabled_on_start = true,
   truncate_str = "...",

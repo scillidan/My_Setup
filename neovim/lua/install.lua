@@ -44,17 +44,18 @@ require("lazy").setup({
   { "sontungexpt/stcursorword", event = "VeryLazy", config = true },
   -- { "ukyouz/syntax-highlighted-cursor.nvim" },
   { "rlychrisg/keepcursor.nvim" },
-  { "nvim-treesitter/nvim-treesitter",
-    build = ":TSUpdate",
-    dependencies = { "HiPhish/nvim-ts-rainbow2" },
-    opts = function(_, opts)
-      opts.rainbow = {
-        enable = true,
-        query = "rainbow-parens",
-        strategy = require("ts-rainbow").strategy.global,
-      }
-    end,
-  },
+  { "catgoose/nvim-colorizer.lua", event = "BufReadPre" },
+  -- { "nvim-treesitter/nvim-treesitter",
+  --   build = ":TSUpdate",
+  --   dependencies = { "HiPhish/nvim-ts-rainbow2" },
+  --   opts = function(_, opts)
+  --     opts.rainbow = {
+  --       enable = true,
+  --       query = "rainbow-parens",
+  --       strategy = require("ts-rainbow").strategy.global,
+  --     }
+  --   end,
+  -- },
   { "williamboman/mason.nvim" },
   { "williamboman/mason-lspconfig.nvim" },
   { "neovim/nvim-lspconfig" },

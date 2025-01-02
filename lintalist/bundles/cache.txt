@@ -29,3 +29,8 @@ Patterns:
   LLKey: 
   LLShorthand: 
   LLScript: 
+- LLPart1: bilix --debug --quality 1080p --dir C:\Users\User\Video --video-con 1 --cookie <cookie> get_series ^|
+  LLPart2: bilix --debug --quality 1080p --dir C:\Users\User\Video --video-con 1 --cookie <cookie> get_collect ^|
+  LLKey: 
+  LLShorthand: 
+  LLScript: 

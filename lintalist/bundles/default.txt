@@ -14,11 +14,6 @@ Patterns:
   LLKey: 
   LLShorthand: 
   LLScript: 
-- LLPart1: bilix --debug --quality 1080p --dir C:\Users\User\Video --video-con 1 --cookie 61523782-CBA7-92CF-7797-6A94155F5AC738318infoc get_series ^|
-  LLPart2: bilix --debug --quality 1080p --dir C:\Users\User\Video --video-con 1 --cookie 61523782-CBA7-92CF-7797-6A94155F5AC738318infoc get_collect ^|
-  LLKey: 
-  LLShorthand: 
-  LLScript: 
 - LLPart1: ffmpeg.exe -i ^|.mp4 -vcodec libwebp -vf scale=1200:-1 -loop 0 _.webp
   LLPart2: 
   LLKey: 
@@ -79,7 +74,6 @@ Patterns:
   LLKey: 
   LLShorthand: 
   LLScript: 
-
 - LLPart1: ffmpeg -i ^| -map 0:s:0 _.srt
   LLPart2: 
   LLKey: 
