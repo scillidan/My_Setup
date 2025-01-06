@@ -6,5 +6,5 @@ matches:
     replace: "python.exe -m venv venv\nvenv\\Scripts\\activate.bat"
     passive_only: true
   - trigger: ":uv"
-    replace: "uv.exe venv --python cpython-3.10.11-windows-x86_64-none && .venv\\Scripts\\activate.bat"
+    replace: "uv.exe venv --python cpython-3.10.11-windows-x86_64-none\n.venv\\Scripts\\activate.bat"
     passive_only: true

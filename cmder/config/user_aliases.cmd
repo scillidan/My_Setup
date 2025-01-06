@@ -79,6 +79,7 @@ pi39=py39 -m pip install $*
 pu39=py39 -m pip uninstall $*
 pi310=py310 -m pip install $*
 pu310=py310 -m pip uninstall $*
+uva=.venv\Scripts\activate.bat
 ui=uv pip install $* --system
 uu=uv pip uninstall $*
 xpi=pipx install $*
