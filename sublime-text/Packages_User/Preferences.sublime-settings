@@ -28,7 +28,7 @@
     /*"translate_tabs_to_spaces": true,*/
     /*"detect_indentation": false*/
     "preview_on_click": false,
-    "color_scheme": "Packages/User/Color Highlighter/themes/tokyonight_moon.tmTheme",
+    "color_scheme": "Monokai.sublime-color-scheme",
     "ignored_packages": [
         "Vintage",
     ],

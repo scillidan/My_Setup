@@ -58,6 +58,6 @@ action.popMainWindow=false
 other.simpleNotificationType=default
 
 [TabPageManager]
-refresh=true
+refresh=false
 openPageList=GlobalConfigsPage/GlobalConfigsPage.qml, ScreenshotOCR/ScreenshotOCR.qml, QRCode/QRCode.qml
-showPageIndex=0
+showPageIndex=1
