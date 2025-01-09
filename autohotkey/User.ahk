@@ -2,6 +2,13 @@
 SetWorkingDir %A_ScriptDir%
 ^!+r::Run "C:\Program Files (x86)\Rime\weasel-0.16.1\WeaselServer.exe"
 
+; Map Right Shift to Left Shift + Left Control
+RShift::
+    Send, {LShift down}{LControl down}
+    KeyWait, RShift
+    Send, {LShift up}{LControl up}
+return
+
 ; New functionality to open clipboard URL
 ^+o::
     ClipWait, 1 ; Wait for the clipboard to contain data

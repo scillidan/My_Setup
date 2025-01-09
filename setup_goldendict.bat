@@ -2,7 +2,8 @@
 
 set "HOME=C:\Users\User"
 
-set "GOLDENDICT_OPT=%HOME%\Opt\GoldenDict"
+set "GOLDENDICT_OPT=C:\Program Files (x86)\GoldenDict"
+rem set "GOLDENDICT_OPT=%HOME%\Opt\GoldenDict"
 set "GOLDENDICT_DATA=%APPDATA%\GoldenDict"
 set "GOLDENDICT_SETUP=%HOME%\Github\My_Setup\goldendict"
 set "GOLDENDICT_DL=%HOME%\Download\goldendict"
