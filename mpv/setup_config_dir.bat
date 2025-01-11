@@ -29,6 +29,8 @@ set "CONFIG_DIR_ALL=%CONFIG_DIR_GLOBAL% %CONFIG_DIR_TEST% %CONFIG_DIR_VIDEO% %CO
 
 for %%d in (%CONFIG_DIR_ALL%) do (
     rmdir /S /Q "%%d"
+    del "%%d\mpv.conf"
+    del "%%d\input.conf"
     mkdir "%%d"
     mkdir "%%d\%SD%"
     mkdir "%%d\%SOD%"
